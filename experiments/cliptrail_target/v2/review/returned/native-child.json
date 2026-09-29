@@ -1,0 +1,12 @@
+﻿{
+    "schema":  2,
+    "started_utc":  "2026-09-21T12:38:14.8857966Z",
+    "stage":  "native_python_exited",
+    "native_process_started":  true,
+    "native_exit_code":  -1073741819,
+    "native_exit_code_hex":  "C0000005",
+    "automatic_retries":  false,
+    "npu_verified":  false,
+    "native_pid":  2156,
+    "finished_utc":  "2026-09-21T12:39:21.9920603Z"
+}

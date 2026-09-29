@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_target/assemble_bundle.py", line 110, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_target/assemble_bundle.py", line 58, in main
+    extract_zip(path,site,wheel=True)
+  File "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_target/assemble_bundle.py", line 27, in extract_zip
+    else:raise ValueError('Unsupported wheel data scheme '+i.filename)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Unsupported wheel data scheme sympy-1.14.0.data/data/share/man/man1/isympy.1

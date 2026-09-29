@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="cliptrail-token" content="__TOKEN__">
+  <title>ClipTrail · Local video search</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div><div class="eyebrow">LOCAL VIDEO SEARCH</div><h1>ClipTrail</h1>
+        <p>Find a moment in your videos with a sentence.</p></div>
+      <div class="runtime"><span id="backend">Loading backend…</span><span id="phase" class="pill">Starting</span></div>
+    </header>
+
+    <section aria-labelledby="library-title">
+      <div class="section-head"><h2 id="library-title">Video library</h2><span id="count">0 videos</span></div>
+      <div class="row">
+        <button id="chooseVideo">Choose video</button>
+        <button id="chooseFolder" class="secondary">Choose folder</button>
+        <input id="videoFiles" type="file" accept="video/*,.mkv,.mov,.avi,.m4v,.webm" multiple hidden>
+        <input id="folderFiles" type="file" webkitdirectory directory multiple hidden>
+      </div>
+      <p class="hint">Selected files are copied into this computer's local ClipTrail library before indexing.</p>
+      <form id="pathForm" class="path-row">
+        <label for="pathInput">Already on this computer?</label>
+        <input id="pathInput" placeholder="/path/to/video-or-folder" autocomplete="off">
+        <button type="submit" class="secondary">Index path</button>
+      </form>
+      <div id="activity" class="activity" role="status" aria-live="polite">
+        <div id="activityText">Ready to index a video.</div>
+        <progress id="progress" max="1" value="0"></progress>
+        <div id="activityDetail" class="muted"></div>
+      </div>
+      <div id="videos" class="video-list"></div>
+    </section>
+
+    <section aria-labelledby="search-title">
+      <div class="section-head"><h2 id="search-title">Search moments</h2><span id="queryTime"></span></div>
+      <form id="searchForm" class="search-row">
+        <label class="sr-only" for="query">Describe the scene</label>
+        <input id="query" placeholder="A red-haired woman surrounded by burning rubble…" autocomplete="off" required>
+        <button id="searchButton" type="submit">Search</button>
+      </form>
+      <p class="hint">Search uses the index saved on this computer. No video frames are re-embedded for a query.</p>
+      <div id="results" class="results" aria-live="polite"></div>
+    </section>
+
+    <footer><span>Processing and storage stay local.</span><span id="verification">CPU backend</span></footer>
+  </main>
+
+  <dialog id="playerDialog">
+    <div class="player-head"><div><strong id="playerName"></strong><span id="playerTime"></span></div>
+      <button id="closePlayer" class="secondary" aria-label="Close player">Close</button></div>
+    <video id="player" controls preload="metadata"></video>
+    <p id="playbackMessage" class="hint"></p>
+    <button id="openExternal" class="secondary">Open in local player</button>
+  </dialog>
+</body>
+</html>

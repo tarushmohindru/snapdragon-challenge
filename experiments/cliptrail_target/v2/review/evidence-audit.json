@@ -1,0 +1,410 @@
+{
+  "status": "PASSED_ARTIFACT_CONSISTENCY_NOT_HARDWARE_VERIFICATION",
+  "archive": "smoke-v2-20260921T123814481Z-9573326e.zip",
+  "archive_sha256": "e8aa83c11ef9a96d4c2af205aa2e82197b2499e65af64dbe82ebba27677ef1c4",
+  "archive_bytes": 183622,
+  "members": [
+    {
+      "archive_name": "inventory-20260921T123815018Z\\inventory.json",
+      "normalized_path": "inventory-20260921T123815018Z/inventory.json",
+      "bytes": 72451,
+      "sha256": "29fdb6b16338d897a8b6a03e730581807eafc521343531480461054c1f1b48cb"
+    },
+    {
+      "archive_name": "attempt-ticket.json",
+      "normalized_path": "attempt-ticket.json",
+      "bytes": 589,
+      "sha256": "ecb20b7ad1957549e270c29ab21e1d578b7138e37eb178d7a0c0d955933fe33a"
+    },
+    {
+      "archive_name": "attempt.stderr.log",
+      "normalized_path": "attempt.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_name": "attempt.stdout.log",
+      "normalized_path": "attempt.stdout.log",
+      "bytes": 246,
+      "sha256": "51952a3e91695d2532bf5d6c787465306fafda2355a4cf8e146d6295724a5fd6"
+    },
+    {
+      "archive_name": "authorization-v2.json",
+      "normalized_path": "authorization-v2.json",
+      "bytes": 1594,
+      "sha256": "84cdb8967d53ed7086fd51c2e0db0d86fb5b3e0fa73f62d53199d9d74ca12016"
+    },
+    {
+      "archive_name": "bundle-manifest-v2.json",
+      "normalized_path": "bundle-manifest-v2.json",
+      "bytes": 445314,
+      "sha256": "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f"
+    },
+    {
+      "archive_name": "cpu_embedding.npy",
+      "normalized_path": "cpu_embedding.npy",
+      "bytes": 2176,
+      "sha256": "5edaa3e4723c87209d64ce7d4d79cf0e49f78a0299e6d34e838e7dabb8391835"
+    },
+    {
+      "archive_name": "evidence-hashes-v2.json",
+      "normalized_path": "evidence-hashes-v2.json",
+      "bytes": 1677,
+      "sha256": "ed0f42501e2dc9c84eb9aa2e342b4834ee02e28ac4c112386713cd53c6464db7"
+    },
+    {
+      "archive_name": "native-child.json",
+      "normalized_path": "native-child.json",
+      "bytes": 381,
+      "sha256": "9abe3939fb0fc3bba0115f252622484546819ac3895747c8562da9615e7c2387"
+    },
+    {
+      "archive_name": "ort-profile_2026-09-21_18-09-07_915.json",
+      "normalized_path": "ort-profile_2026-09-21_18-09-07_915.json",
+      "bytes": 5385,
+      "sha256": "a50747014cc539c58795411989f34845391ebf6619f349c4049f2575e400d957"
+    },
+    {
+      "archive_name": "python.stderr.log",
+      "normalized_path": "python.stderr.log",
+      "bytes": 1640,
+      "sha256": "b7d873489c893b684a057b100146e67274febee30c200cae99e1200e58f58de2"
+    },
+    {
+      "archive_name": "python.stdout.log",
+      "normalized_path": "python.stdout.log",
+      "bytes": 2214,
+      "sha256": "c530f282ab990f364339c8dcbd9995204e87eeb7920f7aaa4996a5333339a186"
+    },
+    {
+      "archive_name": "qnn_embedding.npy",
+      "normalized_path": "qnn_embedding.npy",
+      "bytes": 2176,
+      "sha256": "c85e4f356bb318585ff0725856a013669c1e9842b11806365736c45bb160e7e1"
+    },
+    {
+      "archive_name": "qnn_op_trace.json",
+      "normalized_path": "qnn_op_trace.json",
+      "bytes": 285867,
+      "sha256": "f2cf59aa90f63f2438423e1b97caaaf0a1e5876910e6e8fab27b871e75eb4082"
+    },
+    {
+      "archive_name": "smoke-outcome-v2.json",
+      "normalized_path": "smoke-outcome-v2.json",
+      "bytes": 5599,
+      "sha256": "30f1abe8dcd7d7f67ae767e5627c7ce6eb418bb459eb4fb4c4a87e00009f659e"
+    },
+    {
+      "archive_name": "smoke.json",
+      "normalized_path": "smoke.json",
+      "bytes": 14092,
+      "sha256": "9e8b83ebf4fd377406d1e451b2bab8c5717b4027e63a9d48c356f9ca314af7a3"
+    },
+    {
+      "archive_name": "stages.jsonl",
+      "normalized_path": "stages.jsonl",
+      "bytes": 2469,
+      "sha256": "de18276f86543ed1d43a62eee1bc1f98e8e2b1ed1d8e90d2a6bf17649a28f210"
+    },
+    {
+      "archive_name": "supervisor.log",
+      "normalized_path": "supervisor.log",
+      "bytes": 387,
+      "sha256": "718905d4efc526ca40f499d4220fd9f087fe31890e28d29dd7c7105eb14588c2"
+    }
+  ],
+  "recorded_hashes_checked": 17,
+  "v1_preservation_checks": {
+    "experiments/cliptrail_target/artifacts/ClipTrail-HTP-smoke-v1.zip": true,
+    "experiments/cliptrail_target/bundle/bundle-manifest.json": true,
+    "experiments/cliptrail_target/deployment-gate.json": true,
+    "experiments/cliptrail_target/results/bundle-audit.json": true,
+    "experiments/cliptrail_target/results/zip-audit.json": true,
+    "experiments/cliptrail_target/results/graph-preparation.json": true,
+    "experiments/cliptrail_target/results/deployment-outcome-20260921.json": true,
+    "experiments/cliptrail_target/results/deployment-gate-before-closure-20260921.json": true,
+    "experiments/cliptrail_target/results/provisioning.json": true,
+    "project/planning/cliptrail-deployment-outcome.md": true
+  },
+  "manifest_and_authorization_match_issued_v2": true,
+  "inventory_runtime_hashes_checked": 18,
+  "issued_runner_sources_match_manifest": true,
+  "recomputed_parity": {
+    "cpu_vs_frozen": {
+      "cosine": 1.0,
+      "max_absolute_error": 5.101319402456284e-07,
+      "norm": 0.9999999403953552,
+      "reference_norm": 1.0,
+      "limits": {
+        "cosine_min": 0.99999,
+        "max_abs_max": 0.001
+      },
+      "finite_unit_embedding": true,
+      "pass": true
+    },
+    "qnn_vs_frozen": {
+      "cosine": 0.9999828338623047,
+      "max_absolute_error": 0.0011736899614334106,
+      "norm": 1.000091791152954,
+      "reference_norm": 1.0,
+      "limits": {
+        "cosine_min": 0.999,
+        "max_abs_max": 0.02
+      },
+      "finite_unit_embedding": true,
+      "pass": true
+    },
+    "qnn_vs_target_cpu": {
+      "cosine": 0.9999828338623047,
+      "max_absolute_error": 0.0011736303567886353,
+      "norm": 1.000091791152954,
+      "reference_norm": 0.9999999403953552,
+      "limits": {
+        "cosine_min": 0.999,
+        "max_abs_max": 0.02
+      },
+      "finite_unit_embedding": true,
+      "pass": true
+    }
+  },
+  "recomputed_ort_placement": {
+    "counts": {
+      "QNNExecutionProvider": 1
+    },
+    "executed_nodes": [
+      {
+        "name": "QNNExecutionProvider_QNNExecutionProvider_3058003072210644008_1_0_kernel_time",
+        "duration_us": 511435,
+        "provider": "QNNExecutionProvider",
+        "op_name": "QNNExecutionProvider_3058003072210644008_1"
+      }
+    ],
+    "qnn_executed": true,
+    "only_qnn_compute": true
+  },
+  "framework_trace_summary": {
+    "fusion_count": {
+      "OrtNodeUnit": 342,
+      "ReshapeGemmFusionGroup": 72
+    },
+    "qnn_subgraphs": 1,
+    "supported_nodes": 423,
+    "total_onnx_nodes": 423,
+    "total_qnn_ops": 414,
+    "total_socs": 1,
+    "unsupported_nodes": 0
+  },
+  "stages": [
+    {
+      "utc": "2026-09-21T12:38:20.967501+00:00",
+      "stage": "native_architecture",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:38:21.032413+00:00",
+      "stage": "v2_attempt_authorization",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:38:21.035718+00:00",
+      "stage": "bundle_hash_validation",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:06.475406+00:00",
+      "stage": "native_dependencies",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:06.493164+00:00",
+      "stage": "dependency_import",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:06.665636+00:00",
+      "stage": "ort_import",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:06.725614+00:00",
+      "stage": "qnn_plugin_import",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:06.735490+00:00",
+      "stage": "qnn_plugin_registration",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:06.745752+00:00",
+      "stage": "qnn_device_enumeration",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:07.601845+00:00",
+      "stage": "cpu_same_graph",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:07.608494+00:00",
+      "stage": "cpu_session_creation",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 0,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:07.780347+00:00",
+      "stage": "cpu_inference",
+      "calls": {
+        "cpu": 0,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 1,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:07.912177+00:00",
+      "stage": "qnn_session_creation",
+      "calls": {
+        "cpu": 1,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 1,
+        "qnn": 0
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:14.925981+00:00",
+      "stage": "qnn_inference",
+      "calls": {
+        "cpu": 1,
+        "qnn": 0
+      },
+      "run_attempts": {
+        "cpu": 1,
+        "qnn": 1
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:15.462715+00:00",
+      "stage": "embedding_validation",
+      "calls": {
+        "cpu": 1,
+        "qnn": 1
+      },
+      "run_attempts": {
+        "cpu": 1,
+        "qnn": 1
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:15.465750+00:00",
+      "stage": "execution_evidence_collection",
+      "calls": {
+        "cpu": 1,
+        "qnn": 1
+      },
+      "run_attempts": {
+        "cpu": 1,
+        "qnn": 1
+      }
+    },
+    {
+      "utc": "2026-09-21T12:39:15.850884+00:00",
+      "stage": "finished",
+      "calls": {
+        "cpu": 1,
+        "qnn": 1
+      },
+      "run_attempts": {
+        "cpu": 1,
+        "qnn": 1
+      }
+    }
+  ],
+  "missing_hardware_artifacts": [
+    "qnn-profile.csv",
+    "qnn-profile_qnn.log",
+    "ETW .etl or hardware event export"
+  ],
+  "npu_verified": false,
+  "new_inference_performed": false
+}

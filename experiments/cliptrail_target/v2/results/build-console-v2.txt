@@ -1,0 +1,30 @@
+{
+  "status": "V2_BUNDLE_STATICALLY_VERIFIED",
+  "created_utc": "2026-09-21T10:19:04.328479+00:00",
+  "artifact": "artifacts/ClipTrail-HTP-smoke-v2.zip",
+  "zip_sha256": "170a99c641c585445198963845a2dfe443354cdbdbdeccc5928bd9bac353b6f9",
+  "zip_bytes": 315726092,
+  "unpacked_bytes": 635764524,
+  "manifest_sha256": "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f",
+  "files_checked": 3152,
+  "v1_preservation_checks_passed": true,
+  "protected_payload_files_identical": 3142,
+  "model_metadata_identical": true,
+  "runtime_metadata_identical": true,
+  "changed_control_files": [
+    "README.txt",
+    "run_smoke.ps1",
+    "run_smoke.py"
+  ],
+  "added_control_files": [
+    "attempt_policy.py",
+    "authorization-v2.json",
+    "invoke_attempt_v2.ps1"
+  ],
+  "removed_instruction_files": [
+    "INVENTORY_README.txt"
+  ],
+  "native_attempt_started": false,
+  "npu_verified": false,
+  "runtime_reprovisioned": false
+}

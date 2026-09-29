@@ -1,0 +1,12 @@
+Source: participant's pasted terminal output received 2026-09-21.
+Original terminal log file was not attached. The two output lines were:
+
+Target assets/metadata provisioning finished. Read results/provisioning.json for successes and blockers.
+This does not run on the Snapdragon, establish HTP execution, or start the systems benchmark.
+
+Workspace check: results/provisioning.json remains the 2026-09-20 record,
+modified at 08:02:14 UTC, with model status downloaded and runtime status
+downloaded_not_executed. Versions match the existing bundled locks:
+OpenAI CLIP v0.62.2 float, Python 3.12.10 cp312 ARM64, ORT 1.30.0,
+onnxruntime-qnn 2.6.0, NumPy 2.5.3. No provisioning rerun was needed.
+This receipt is not evidence of execution on the friend's device.

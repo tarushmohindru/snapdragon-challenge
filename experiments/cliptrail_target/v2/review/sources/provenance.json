@@ -1,0 +1,41 @@
+{
+  "retrieved_date": "2026-09-22",
+  "note": "Release-tag source for interpretation; no proof of exact wheel build commit. Original copyright notices retained. No code executed.",
+  "sources": [
+    {
+      "file": "qnn_backend_manager.cc",
+      "url": "https://github.com/onnxruntime/onnxruntime-qnn/blob/v2.6.0/onnxruntime/core/providers/qnn/builder/qnn_backend_manager.cc",
+      "ref": "v2.6.0",
+      "git_blob_sha": "271d3112213cbe69422581067b01cc2e069406dc",
+      "sha256": "0380302081914c7398bb7c082ed989436c5b213c6c260644129730d4386d5604"
+    },
+    {
+      "file": "qnn_telemetry.h",
+      "url": "https://github.com/onnxruntime/onnxruntime-qnn/blob/v2.6.0/onnxruntime/core/providers/qnn/qnn_telemetry.h",
+      "ref": "v2.6.0",
+      "git_blob_sha": "b6cc19c997afbc0f8f66c783511ec3182e547869",
+      "sha256": "d33db175e02932e7a154c9c08bdce3b8a809022d1777d58412404e7b9b83f39e"
+    },
+    {
+      "file": "qnn_telemetry.cc",
+      "url": "https://github.com/onnxruntime/onnxruntime-qnn/blob/v2.6.0/onnxruntime/core/providers/qnn/qnn_telemetry.cc",
+      "ref": "v2.6.0",
+      "git_blob_sha": "606d0d10c3dae51f2451921df6a86ee694345a7e",
+      "sha256": "23b6629c68f9c8e0066762e5e613a5e37b93cb87981a97ba04f2de76f60a7f53"
+    },
+    {
+      "file": "qnn_execution_provider.cc",
+      "url": "https://github.com/onnxruntime/onnxruntime-qnn/blob/v2.6.0/onnxruntime/core/providers/qnn/qnn_execution_provider.cc",
+      "ref": "v2.6.0",
+      "git_blob_sha": "8067c5501d86499972aadb26652fe7f42abc41a9",
+      "sha256": "fd9c8c7ce9f12caf76c3042d9f32005d4310eaa55930b5e296b76cc9fbca5899"
+    },
+    {
+      "file": "qnn_backend_manager.h",
+      "url": "https://github.com/onnxruntime/onnxruntime-qnn/blob/v2.6.0/onnxruntime/core/providers/qnn/builder/qnn_backend_manager.h",
+      "ref": "v2.6.0",
+      "git_blob_sha": "5c1e960b514e0f0aeafc55fc22595a0e718bf320",
+      "sha256": "da43b5395d3ac8608718b6cae4b026cdc753cbff5ce334c8091c9180af50c811"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "HANDOFF_READY_NO_NATIVE_RUN",
+  "v1_historical_artifacts_unchanged": 10,
+  "v2_control_hashes_match_manifest": true,
+  "pending_outcome_matches_bundle": true,
+  "native_attempts_observed": 0,
+  "npu_verified": false,
+  "zip_sha256": "170a99c641c585445198963845a2dfe443354cdbdbdeccc5928bd9bac353b6f9"
+}

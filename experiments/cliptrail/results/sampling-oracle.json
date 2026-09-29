@@ -1,0 +1,584 @@
+{
+  "provenance": "SIMULATED score oracle, NOT CLIP embeddings or retrieval benchmark",
+  "host": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "frames": 240,
+  "results": [
+    {
+      "case": "short_with_precursor",
+      "method": "uniform",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        127,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "top5": [
+        96,
+        80,
+        0,
+        16,
+        32
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_with_precursor",
+      "method": "change",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        103,
+        108
+      ],
+      "top5": [
+        103,
+        0,
+        3,
+        6,
+        9
+      ],
+      "hit5": true
+    },
+    {
+      "case": "short_with_precursor",
+      "method": "hierarchical",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        34,
+        68,
+        85,
+        93,
+        97,
+        102,
+        104,
+        106,
+        108,
+        110,
+        119,
+        137,
+        171,
+        205,
+        239
+      ],
+      "top5": [
+        104,
+        106,
+        102,
+        97,
+        93
+      ],
+      "hit5": true
+    },
+    {
+      "case": "short_with_precursor",
+      "method": "hybrid",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        34,
+        68,
+        102,
+        137,
+        171,
+        205,
+        239,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "top5": [
+        102,
+        0,
+        1,
+        2,
+        3
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_no_hint",
+      "method": "uniform",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        127,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "top5": [
+        0,
+        16,
+        32,
+        48,
+        64
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_no_hint",
+      "method": "change",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        103,
+        108
+      ],
+      "top5": [
+        103,
+        0,
+        3,
+        6,
+        9
+      ],
+      "hit5": true
+    },
+    {
+      "case": "short_no_hint",
+      "method": "hierarchical",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        85,
+        102,
+        119,
+        128,
+        137,
+        154,
+        171,
+        188,
+        205,
+        222,
+        239
+      ],
+      "top5": [
+        0,
+        17,
+        34,
+        51,
+        68
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_no_hint",
+      "method": "hybrid",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        34,
+        68,
+        102,
+        137,
+        171,
+        205,
+        239,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "top5": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_distractor_cuts",
+      "method": "uniform",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        127,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "top5": [
+        0,
+        16,
+        32,
+        48,
+        64
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_distractor_cuts",
+      "method": "change",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        3,
+        10,
+        17,
+        24,
+        31,
+        38,
+        45,
+        52,
+        59,
+        66,
+        73,
+        80,
+        87,
+        94,
+        101,
+        108
+      ],
+      "top5": [
+        3,
+        10,
+        17,
+        24,
+        31
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_distractor_cuts",
+      "method": "hierarchical",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        17,
+        34,
+        51,
+        68,
+        85,
+        102,
+        119,
+        128,
+        137,
+        154,
+        171,
+        188,
+        205,
+        222,
+        239
+      ],
+      "top5": [
+        0,
+        17,
+        34,
+        51,
+        68
+      ],
+      "hit5": false
+    },
+    {
+      "case": "short_distractor_cuts",
+      "method": "hybrid",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        103,
+        108
+      ],
+      "selected": [
+        0,
+        34,
+        68,
+        102,
+        137,
+        171,
+        205,
+        239,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "top5": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "hit5": false
+    },
+    {
+      "case": "long_state",
+      "method": "uniform",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        80,
+        145
+      ],
+      "selected": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        127,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "top5": [
+        80,
+        96,
+        112,
+        127,
+        143
+      ],
+      "hit5": true
+    },
+    {
+      "case": "long_state",
+      "method": "change",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        80,
+        145
+      ],
+      "selected": [
+        3,
+        10,
+        17,
+        24,
+        31,
+        38,
+        45,
+        52,
+        59,
+        66,
+        73,
+        80,
+        87,
+        94,
+        101,
+        108
+      ],
+      "top5": [
+        80,
+        87,
+        94,
+        101,
+        108
+      ],
+      "hit5": true
+    },
+    {
+      "case": "long_state",
+      "method": "hierarchical",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        80,
+        145
+      ],
+      "selected": [
+        0,
+        34,
+        68,
+        76,
+        85,
+        93,
+        102,
+        110,
+        119,
+        128,
+        137,
+        145,
+        154,
+        171,
+        205,
+        239
+      ],
+      "top5": [
+        85,
+        93,
+        102,
+        110,
+        119
+      ],
+      "hit5": true
+    },
+    {
+      "case": "long_state",
+      "method": "hybrid",
+      "image_encodes": 16,
+      "budget": 16,
+      "event_interval": [
+        80,
+        145
+      ],
+      "selected": [
+        0,
+        34,
+        68,
+        102,
+        137,
+        171,
+        205,
+        239,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "top5": [
+        102,
+        137,
+        0,
+        1,
+        2
+      ],
+      "hit5": true
+    }
+  ],
+  "algorithm_sha256": "b0738f24bb87fc5db4b40a566defe6531790a4392aabed64661ba07edc3f8b0b"
+}

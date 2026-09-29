@@ -1,0 +1,12 @@
+assets/model/
+assets/videos/
+datasets/frames/
+datasets/*/frames/
+datasets/*/contact_sheets/
+datasets/runtime-smoke/
+datasets/reproduction-check/
+datasets/replay-v1/
+results/*/embeddings.f32
+!results/real-v1/embeddings.f32
+!results/real-v1-amended/embeddings.f32
+__pycache__/

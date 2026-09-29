@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-21T10:09:31.537950+00:00",
+  "files": {
+    "experiments/cliptrail_target/artifacts/ClipTrail-HTP-smoke-v1.zip": "da18d0aa7b8f44d57154f632cba1fb42f83209d0e9258f5c2808bd60a1ee290d",
+    "experiments/cliptrail_target/bundle/bundle-manifest.json": "b8def9935be3b9d982b07c886c9596a142a465b99379655becd3ea93b13baf4d",
+    "experiments/cliptrail_target/deployment-gate.json": "94234c5d0cb2964e366210b44be29d79ae69201265dc6e3a9eb0d18691bc6b30",
+    "experiments/cliptrail_target/results/bundle-audit.json": "eb1b77011b9754d5f0d677e7ee07ffff553fe330d6bb0f56b534a3de2f12e2e6",
+    "experiments/cliptrail_target/results/zip-audit.json": "f442a782dae212762903f820fa76906516831bdce07fe32cb373d3f6a17f648d",
+    "experiments/cliptrail_target/results/graph-preparation.json": "8273262a6793e982aa87b3dc7f574e8cb8b969b71f17f0c263696435e80ef0e4",
+    "experiments/cliptrail_target/results/deployment-outcome-20260921.json": "38d98764d9bd95eb42adbd5711302aa3c0bb6947764f9421e50a80fb0e29f21f",
+    "experiments/cliptrail_target/results/deployment-gate-before-closure-20260921.json": "b90b67dcfbea88138855bbed5461987aee8eff0984ff0d8bc1e7b4d706924590",
+    "experiments/cliptrail_target/results/provisioning.json": "fe5e2b730d51ff863a148864a85b0a697aed53dfc0fc37aa9bf1decaba04b2d1",
+    "project/planning/cliptrail-deployment-outcome.md": "e9b75c614ec5386b57e29b5ee1bf0615b03ca4e3e29047af32921e0eec8c57e6"
+  }
+}

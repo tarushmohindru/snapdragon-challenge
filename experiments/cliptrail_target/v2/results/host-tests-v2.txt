@@ -1,0 +1,18 @@
+test_authorization_is_one_attempt_exactly_600_seconds (test_v2_policy.PolicyTests.test_authorization_is_one_attempt_exactly_600_seconds) ... ok
+test_concurrent_claims_allow_only_one (test_v2_policy.PolicyTests.test_concurrent_claims_allow_only_one) ... ok
+test_expected_target_required (test_v2_policy.PolicyTests.test_expected_target_required) ... ok
+test_expired_ticket_does_not_launch_native_work (test_v2_policy.PolicyTests.test_expired_ticket_does_not_launch_native_work) ... ok
+test_forged_extraction_and_manifest_are_rejected (test_v2_policy.PolicyTests.test_forged_extraction_and_manifest_are_rejected) ... ok
+test_local_ticket_cannot_replace_persistent_claim (test_v2_policy.PolicyTests.test_local_ticket_cannot_replace_persistent_claim) ... ok
+test_missing_supervisor_ticket_is_rejected (test_v2_policy.PolicyTests.test_missing_supervisor_ticket_is_rejected) ... ok
+test_new_extraction_does_not_clear_persistent_native_marker (test_v2_policy.PolicyTests.test_new_extraction_does_not_clear_persistent_native_marker) ... ok
+test_second_native_start_is_refused_even_after_first_ends (test_v2_policy.PolicyTests.test_second_native_start_is_refused_even_after_first_ends) ... ok
+test_every_session_constructor_disables_wrapper_retry (test_v2_policy.RuntimeControlTests.test_every_session_constructor_disables_wrapper_retry) ... ok
+test_pinned_ort_constructor_failure_never_retries_when_disabled (test_v2_policy.RuntimeControlTests.test_pinned_ort_constructor_failure_never_retries_when_disabled) ... [0;93m2026-09-21 10:14:48.324740732 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+ok
+test_precision_provider_options_and_thread_policy_unchanged (test_v2_policy.RuntimeControlTests.test_precision_provider_options_and_thread_policy_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.218s
+
+OK

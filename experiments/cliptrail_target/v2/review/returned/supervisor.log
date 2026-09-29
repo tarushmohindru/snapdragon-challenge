@@ -1,0 +1,3 @@
+﻿2026-09-21T12:38:14.5376632Z v2: exactly one attempt, ten-minute cap including inventory and native initialization. No automatic retries.
+2026-09-21T12:38:14.7669888Z Attempt claimed. Collecting inventory and running the fixed CPU check plus one QNN inference; please wait.
+2026-09-21T12:39:22.0570005Z Stopped: INCOMPLETE_EVIDENCE. Do not run again. HTP evidence requires review.

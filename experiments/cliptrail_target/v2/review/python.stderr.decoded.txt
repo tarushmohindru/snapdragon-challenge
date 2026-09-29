@@ -1,0 +1,9 @@
+Derived view only: UTF-16LE native prefix; UTF-8 Python fault-handler suffix. Raw bytes remain in returned/python.stderr.log.
+
+[1;31m2026-09-21 18:09:08.5300549 [E:onnxruntime:, qnn_backend_manager.cc:2531 onnxruntime::qnn::QnnBackendManager::ExtractBackendProfilingInfo] ETW enabled previously, but disabled now. Can't do the switch! Won't output any profiling.[m
+[1;31m2026-09-21 18:09:13.3586346 [E:onnxruntime:, qnn_backend_manager.cc:2531 onnxruntime::qnn::QnnBackendManager::ExtractBackendProfilingInfo] ETW enabled previously, but disabled now. Can't do the switch! Won't output any profiling.[m
+[1;31m2026-09-21 18:09:15.3501560 [E:onnxruntime:, qnn_backend_manager.cc:2531 onnxruntime::qnn::QnnBackendManager::ExtractBackendProfilingInfo] ETW enabled previously, but disabled now. Can't do the switch! Won't output any profiling.[m
+Windows fatal exception: access violation
+
+Current thread 0x000008bc (most recent call first):
+  File "C:\Users\Harshdeep Athawale\Downloads\ClipTrail-HTP-smoke-v2\run_smoke.py", line 207 in <module>

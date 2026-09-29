@@ -1,0 +1,44 @@
+{
+  "annotator": "Codex visual inspection; no independent human review",
+  "annotations_before_model_results": true,
+  "all_matching_occurrences_reviewed": true,
+  "annotation_method": "Reviewed each entire window at 1 Hz, then 4 Hz contact sheets for brief events, repeated shots and boundaries. Inspected targeted boundary montages. No benchmark CLIP scores were available. A CPU smoke test used excluded source times 100s and 110s. Boundaries are grid-aligned with approximately 0.25s uncertainty; fades/morphs are ambiguous. Not publication-grade ground truth.",
+  "clips": {
+    "sintel_00": [
+      {"text": "An older man with a gray beard and a headband indoors.", "intervals_s": [[12,14]], "rationale": "The sole close shot of the older bearded character; fade-in included once visible.", "confounders": "Dark fade-in; other human faces; animation domain."},
+      {"text": "A red-haired woman surrounded by burning rubble.", "intervals_s": [[22,24]], "rationale": "Woman against visible fire and debris, distinct from warm sunset shots.", "confounders": "Other shots of the same woman in orange light; dim first frame."},
+      {"text": "A narrow stone alley viewed from above.", "intervals_s": [[18.25,21.75]], "rationale": "Single overhead alley shot, including visible portions of fades.", "confounders": "Rooftop/city shots later; low illumination at boundaries."},
+      {"text": "Golden sand dunes stretching into the distance.", "intervals_s": [[36,42.25]], "rationale": "Desert landscape through the end fade; title overlay does not remove the landscape.", "confounders": "Dissolve from dragon shot; title and fade at end."}
+    ],
+    "steel_20": [
+      {"text": "Two people with bicycles standing beside canal railings.", "intervals_s": [[5,20.25]], "rationale": "Continuous bridge conversation; bicycles visible under the people.", "confounders": "People gesture and partially occlude bicycles; long event."},
+      {"text": "A hand adjusting knobs on an electronic control panel.", "intervals_s": [[30,31.25]], "rationale": "Only close-up of hands operating physical knobs in this window.", "confounders": "Many holographic interfaces also look like control panels."},
+      {"text": "A human brain on a plate with wires attached.", "intervals_s": [[36.75,44.5]], "rationale": "Brain remains visible after the camera reveals a man behind it.", "confounders": "Prop brain, camera reframing, foreground wiring."},
+      {"text": "Bright green and pink holographic playback controls.", "intervals_s": [[27.75,30]], "rationale": "Close view of horizontal virtual playback bars before the physical controls cut.", "confounders": "Similar colorful overlays recur over people; specific playback-bar layout is the event."}
+    ],
+    "steel_140": [
+      {"text": "A close view of a man holding a scoped rifle behind white stone columns.", "intervals_s": [[0,3.5],[6,13],[58.5,60]], "rationale": "All close rifle shots, including drinking during the middle shot; the tiny background rifleman at 3.5–6s is outside the close-view query.", "confounders": "Repeated shots, different angles, rifle partly occluded by balustrade."},
+      {"text": "A coil of rope lying on a dark stone floor.", "intervals_s": [[18.75,20.75]], "rationale": "Low camera view shows the rope coil before tilting up away from the floor.", "confounders": "Other hanging ropes; camera tilt gradually removes the coil."},
+      {"text": "A wide symmetrical view of a tall arched window in a ruined hall.", "intervals_s": [[13,18.75]], "rationale": "The full tall window is centered in this distinct wide shot.", "confounders": "Window fragments and ruined architecture occur in other shots."},
+      {"text": "An ivy-covered brick doorway opening into a warmly lit room.", "intervals_s": [[43.25,49.5]], "rationale": "Exterior wide shot frames the open warm room; reverse view begins at 49.5s.", "confounders": "Warm interior shots share colors; reverse courtyard view also contains brickwork."}
+    ],
+    "steel_260": [
+      {"text": "A hand pressing a bright green playback button.", "intervals_s": [[35.25,36.5]], "rationale": "Single physical green button close-up; no requirement to read the label.", "confounders": "Related green virtual controls elsewhere; motion blur."},
+      {"text": "A close-up of a short-haired woman outdoors with trees behind her.", "intervals_s": [[49.5,50.75]], "rationale": "Woman's face is fully visible after the robot morph; later reverse shot only shows the back of her head.", "confounders": "Morphing boundary and subsequent partial occlusion; exclude the earlier nonhuman head."},
+      {"text": "A close-up of a box-shaped robot head with round glowing eyes.", "intervals_s": [[39,41],[47.75,49.5]], "rationale": "Both frontal close robot-head shots, including the visible head during the second morph.", "confounders": "Robot also appears in wide shots; transitional geometry near 49.5s."},
+      {"text": "A man wearing glasses surrounded by colorful holographic screens.", "intervals_s": [[36.5,37.5],[42.75,47.75]], "rationale": "Both views of the bespectacled technician; back-of-head-only control view is excluded.", "confounders": "Other men have monocle-like machinery; similar screen colors recur without a frontal face."}
+    ],
+    "steel_380": [
+      {"text": "A close-up of a dark-haired man with a robotic hand covering his mouth.", "intervals_s": [[5.5,7],[8.75,10.25],[12.5,19],[24.25,29.25]], "rationale": "All four close views of the man's face and mechanical hand; reverse/wide shots excluded by close-up wording.", "confounders": "Repeated appearances, woman and cropped edge of man in reverse shots, text overlay."},
+      {"text": "A blue wireframe figure beside a man outdoors.", "intervals_s": [[35.75,37.25]], "rationale": "Visible wireframe transition before the fully solid large robot.", "confounders": "Brief synthetic visual effect; earlier small face flicker is not a whole figure."},
+      {"text": "A huge robot gripping a man's shoulders beside trees.", "intervals_s": [[37.25,38.75]], "rationale": "Solid large robot with hand around the man's shoulder area; stops at technician cut.", "confounders": "Previous human-sized robotic hand, wireframe transition, cluttered metal body."},
+      {"text": "A soldier with a backpack holding a rifle at a balcony.", "intervals_s": [[51.5,57.25]], "rationale": "Back and wide views of the armed figure on the balcony; floor-level close shot starts at 57.25s.", "confounders": "Rapid movement and partial occlusion by ropes/columns; later same soldier on floor."}
+    ],
+    "steel_500": [
+      {"text": "A soldier holding a rope beneath wooden beams.", "intervals_s": [[2.5,3.75]], "rationale": "Brief visible soldier and rope, before the lab cut.", "confounders": "Motion blur, rifle and rope overlap, short event without precursor in coarse sample."},
+      {"text": "Bright circular lights on machinery in a dark interior.", "intervals_s": [[27.5,28.5]], "rationale": "Large bright circular lights before they visibly extinguish; later faint pinpoints are not the same bright state.", "confounders": "Gradual extinguishing; detailed dark machinery remains after lights go out."},
+      {"text": "Large rusty orange pipes inside an industrial hall.", "intervals_s": [[21,27.5]], "rationale": "Entire orange-pipe shot across camera motion and moving machinery.", "confounders": "Robot passes behind pipes; earlier window shot shares warm light."},
+      {"text": "An older gray-haired man face-to-face with a large robot.", "intervals_s": [[31.25,37.75],[43.25,57]], "rationale": "Both sequences show the older man beside the robot, including close face view with robot foreground.", "confounders": "Repeated view and scale changes; robot partially cropped in facial close-ups."}
+    ]
+  }
+}

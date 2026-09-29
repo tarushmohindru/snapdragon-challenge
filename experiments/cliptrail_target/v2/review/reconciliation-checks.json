@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-09-22T11:19:45.932030+00:00",
+  "status": "passed",
+  "archive_sha256": "e8aa83c11ef9a96d4c2af205aa2e82197b2499e65af64dbe82ebba27677ef1c4",
+  "raw_members_byte_preserved": 18,
+  "recorded_evidence_hashes_valid": 17,
+  "historical_v1_lock_entries_unchanged": 10,
+  "local_markdown_links_checked": 39,
+  "source_git_blobs_verified": 5,
+  "artifact_audit_repeat_identical": true,
+  "current_status": "INCOMPLETE_EVIDENCE",
+  "attempts_consumed": 1,
+  "recommendation": "B",
+  "additional_target_run_authorized": false,
+  "new_inference_performed": false,
+  "experiments_rerun": false,
+  "original_v1_outcome_unchanged": true,
+  "audit_script_sha256": "94ba87ff4507fe047a908d4e83140dcd9f960402aca31b267a4d85f2316ce46e"
+}

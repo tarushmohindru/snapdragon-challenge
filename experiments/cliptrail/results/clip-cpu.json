@@ -1,0 +1,8 @@
+{
+  "inference_performed": false,
+  "status": "blocked_or_failed",
+  "model": "OpenAI CLIP ViT-B/16",
+  "host": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.12.14",
+  "error": "RuntimeError: Required torch, OpenAI clip and Pillow packages unavailable. No inference performed."
+}

@@ -1,0 +1,2 @@
+/home/tarush/code/snapdragon-challenge/experiments/cliptrail_target/artifacts/ClipTrail-HTP-smoke-v1.zip
+Bundle assembled and binary/hash checks pass; native Windows execution remains unverified.

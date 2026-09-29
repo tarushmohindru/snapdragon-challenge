@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "required_method_rows_unchanged": 96,
+  "frozen_manifest_protocol_code_verified": true,
+  "canonical_summary_gate_recomputed": true,
+  "canonical_calls": {
+    "image": 1920,
+    "text": 120
+  },
+  "tests_last_run": 15,
+  "corpus_frame_hashes_reproduced": 1392
+}

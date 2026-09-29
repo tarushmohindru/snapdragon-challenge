@@ -1,0 +1,2 @@
+[0;93m2026-09-20 08:05:24.498154278 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+{"status": "CPU_PARITY_VERIFIED", "precision": "float", "image_graph_bytes": 345929335, "image_nodes": 399, "pruned_vs_frozen_reference": {"cosine": 0.9999999403953552, "max_abs": 3.03611159324646e-07, "norm": 0.9999999403953552, "pass": true}}

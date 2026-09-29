@@ -1,0 +1,34 @@
+{
+  "schema": 2,
+  "authorization_id": "cliptrail-htp-v2-asus-x2e88100-one-attempt",
+  "recorded_utc": "2026-09-21T10:09:31.538132+00:00",
+  "source": "Participant explicitly authorized v2 in chat on 2026-09-21",
+  "explicit_extension_after_v1_cutoff": true,
+  "original_v1_deadline_utc": "2026-09-21T07:51:35.387658+00:00",
+  "max_native_attempts": 1,
+  "attempt_wall_timeout_seconds": 600,
+  "automatic_retries": false,
+  "new_calendar_deadline": null,
+  "bound_definition": "Exactly one launch attempt; 600 wall seconds from supervisor claim, including inventory and Python/ORT/QNN work. Evidence packaging after termination is not inference. No new arbitrary calendar deadline replaces v1.",
+  "target": {
+    "manufacturer": "ASUS",
+    "model": "Zenbook A14 UX3407NA",
+    "cpu_contains": "X2E88100"
+  },
+  "immutable_workload": [
+    "v1 image graph",
+    "v1 runtime files and versions",
+    "v1 input/preprocessing",
+    "v1 requested precision and provider options",
+    "v1 frozen CPU reference and parity thresholds"
+  ],
+  "allowed_changes": [
+    "separate v2 metadata",
+    "single-attempt supervisor",
+    "disable ORT wrapper retry at construction",
+    "failure-safe diagnostics and evidence packaging"
+  ],
+  "on_success": "Preserve evidence and stop for review; no three-control benchmark",
+  "on_failure": "Preserve evidence and stop; no retries, driver/dependency/graph changes or further debugging",
+  "local_attempt_marker_scope": "Windows LOCALAPPDATA plus extraction directory; no network service or serial collection; no anti-tamper claim across accounts/machines"
+}

@@ -1,0 +1,1023 @@
+﻿{
+    "schema":  1,
+    "collected_utc":  "2026-09-21T12:38:20.6808455Z",
+    "manufacturer":  "ASUS",
+    "model":  "Zenbook A14 UX3407NA",
+    "system_type":  "ARM64-based PC",
+    "ram_bytes":  16784158720,
+    "windows":  {
+                    "caption":  "Microsoft Windows 11 Home Single Language",
+                    "version":  "10.0.28000",
+                    "build":  "28000",
+                    "os_architecture":  "ARM 64-bit Processor",
+                    "release":  {
+                                    "DisplayVersion":  "26H1",
+                                    "CurrentBuild":  "28000",
+                                    "UBR":  2956
+                                }
+                },
+    "processors":  [
+                       {
+                           "Name":  "Snapdragon(R) X2 Elite - X2E88100 - Qualcomm Oryon(TM) CPU",
+                           "Architecture":  12,
+                           "NumberOfCores":  18,
+                           "NumberOfLogicalProcessors":  18
+                       }
+                   ],
+    "accelerator_related_drivers":  [
+                                        {
+                                            "DeviceName":  "Qualcomm PowerLimits Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Analog-to-Digital Converter Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1769040000000)\/",
+                                            "InfName":  "oem95.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm FastConnect C7700 NCM820A Bluetooth Adapter",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1765756800000)\/",
+                                            "InfName":  "oem143.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bluetooth UART Transport Driver",
+                                            "Manufacturer":  "Qualcomm Atheros Communications Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1765756800000)\/",
+                                            "InfName":  "oem118.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) BT ACX Transport Device",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem56.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm WLAN Limits Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Modem skin Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Modem BCL Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm NSP limits Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm GPU limits Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm CPU DCVS Cluster 2 Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm CPU DCVS Cluster 1 Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm CPU DCVS Cluster 0 Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm CPU DCVS Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm CPU Core parking Policy Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Temperature Sensor Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Human Presence Sensor",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem71.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Microsoft Input Configuration Device",
+                                            "Manufacturer":  "Microsoft",
+                                            "DriverVersion":  "10.0.28000.1",
+                                            "DriverDate":  "\/Date(1150848000000)\/",
+                                            "InfName":  "mtconfig.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Sensor Notifier Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem69.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) All-Ways Aware(TM) Sensor Platform Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem69.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) All-Ways Aware(TM) Sensor Platform Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem69.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) EVA Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem62.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  SecureISP Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.100.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem92.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera Always On Sensing Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.100.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem105.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.100.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem75.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera JPEG Encoder Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.100.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem58.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera MipiCsi Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.100.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem147.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera Flash Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.100.0",
+                                            "DriverDate":  "\/Date(1769126400000)\/",
+                                            "InfName":  "oem106.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera Auxiliary Sensor Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "5247.1424.0.1",
+                                            "DriverDate":  "\/Date(1777852800000)\/",
+                                            "InfName":  "oem156.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera Front Sensor Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "5247.1330.0.1",
+                                            "DriverDate":  "\/Date(1777852800000)\/",
+                                            "InfName":  "oem161.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera Platform Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5247.1330.0.1",
+                                            "DriverDate":  "\/Date(1777852800000)\/",
+                                            "InfName":  "oem163.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) QcSocServiceKMDF Service",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem46.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) PPTE Services",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.140.0",
+                                            "DriverDate":  "\/Date(1778544000000)\/",
+                                            "InfName":  "oem173.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm SBOD Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated.",
+                                            "DriverVersion":  "685.13804.140.0",
+                                            "DriverDate":  "\/Date(1778544000000)\/",
+                                            "InfName":  "oem169.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm QSTF CONFIG Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.140.0",
+                                            "DriverDate":  "\/Date(1778544000000)\/",
+                                            "InfName":  "oem168.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) DCF Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem79.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) SenD Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem15.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) SSG Secure Services Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem133.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Subsys Thermal Mitigation Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem146.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) SOC Partition Interface Device",
+                                            "Manufacturer":  "Qualcomm Technologies Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem135.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) USB Type-C Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1767657600000)\/",
+                                            "InfName":  "oem83.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) USB4(TM) Host Router Bus",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem49.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Connection Security Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem138.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bus Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "5151.165.0.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem149.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bus Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "5151.165.0.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem149.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bus Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "5151.165.0.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem149.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Pep Acpi Interface Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm BcryptCipher Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768521600000)\/",
+                                            "InfName":  "oem93.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Secure Processor Device",
+                                            "Manufacturer":  "Qualcomm Technologies Inc.",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768867200000)\/",
+                                            "InfName":  "oem52.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Snapdragon(R) X2 Elite - X2E88100 - Qualcomm(R) Hexagon(TM) NPU",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "30.0.220.11010",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem122.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Audio RPC Daemon Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem137.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) FastRPC Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem39.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Data IPC Router Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1767571200000)\/",
+                                            "InfName":  "oem33.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Shared Memory Port Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem26.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm FastConnect C7700 NCM820A Wi-Fi 7 Network Adapter",
+                                            "Manufacturer":  "Qualcomm Communications Inc.",
+                                            "DriverVersion":  "685.13804.110.0",
+                                            "DriverDate":  "\/Date(1778803200000)\/",
+                                            "InfName":  "oem174.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) PCIe Platform Extension Plugin",
+                                            "Manufacturer":  "(Standard system devices)",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768435200000)\/",
+                                            "InfName":  "oem142.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Inter Processor Communication Interrupt Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem102.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager GPIO Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem141.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) SPMI Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem123.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768521600000)\/",
+                                            "InfName":  "oem64.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768867200000)\/",
+                                            "InfName":  "oem70.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager Secapp Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1766188800000)\/",
+                                            "InfName":  "oem129.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager SCM Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1768867200000)\/",
+                                            "InfName":  "oem10.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Spectra(TM)  ISP Camera AVStream Device",
+                                            "Manufacturer":  "Qualcomm",
+                                            "DriverVersion":  "5247.1328.0.1",
+                                            "DriverDate":  "\/Date(1777852800000)\/",
+                                            "InfName":  "oem159.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Display Services",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1769212800000)\/",
+                                            "InfName":  "oem47.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Adreno(TM) X2-90 GPU",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "32.0.149.0",
+                                            "DriverDate":  "\/Date(1770336000000)\/",
+                                            "InfName":  "oem14.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) IOMMU Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem37.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm System Cache Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem87.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Secure Kernel Extension",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem115.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) TFTP Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem31.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Control Processor Subsystem Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.70.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem9.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Secure Processor Subsystem Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.70.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem9.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Subsys Base Thermal Mitigation Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem146.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Subsys Thermal Mitigation Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem146.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Compute DSP Subsystem Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.70.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem9.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Protection Domain Service Registry Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem4.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Subsystem Dependency Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.70.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem9.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) AudioDriverX Device",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "1.0.4508.5301",
+                                            "DriverDate":  "\/Date(1769385600000)\/",
+                                            "InfName":  "oem65.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) ACX Headset Capture Audio Device",
+                                            "Manufacturer":  "Microsoft",
+                                            "DriverVersion":  "685.13804.40.1",
+                                            "DriverDate":  "\/Date(1769385600000)\/",
+                                            "InfName":  "oem61.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) ACX Static Endpoints Audio Device",
+                                            "Manufacturer":  "Microsoft",
+                                            "DriverVersion":  "685.13804.40.1",
+                                            "DriverDate":  "\/Date(1769385600000)\/",
+                                            "InfName":  "oem61.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) ACX Headset Render Audio Device",
+                                            "Manufacturer":  "Microsoft",
+                                            "DriverVersion":  "685.13804.40.1",
+                                            "DriverDate":  "\/Date(1769385600000)\/",
+                                            "InfName":  "oem61.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) ACX Audio Device",
+                                            "Manufacturer":  "Microsoft",
+                                            "DriverVersion":  "685.13804.40.1",
+                                            "DriverDate":  "\/Date(1769385600000)\/",
+                                            "InfName":  "oem61.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM)",
+                                            "Manufacturer":  "(Standard system devices)",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem111.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm ASD Audio Proxy APO",
+                                            "Manufacturer":  "QUALCOMM",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem127.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) SoundWire Controller",
+                                            "Manufacturer":  "(Standard system devices)",
+                                            "DriverVersion":  "685.13804.70.0",
+                                            "DriverDate":  "\/Date(1768694400000)\/",
+                                            "InfName":  "oem67.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Aqstic(TM) Audio DSP and Calibration Manager",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.40.0",
+                                            "DriverDate":  "\/Date(1768176000000)\/",
+                                            "InfName":  "oem81.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Audio DSP Subsystem Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Incorporated",
+                                            "DriverVersion":  "685.13804.70.0",
+                                            "DriverDate":  "\/Date(1769472000000)\/",
+                                            "InfName":  "oem9.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem40.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Peripheral Image Loader Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem60.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Reset Power Error Notifier Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem55.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bus Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1768867200000)\/",
+                                            "InfName":  "oem117.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) I2C Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5188.522.0.0",
+                                            "DriverDate":  "\/Date(1772668800000)\/",
+                                            "InfName":  "oem76.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bus Device",
+                                            "Manufacturer":  "Qualcomm Technologies, Inc.",
+                                            "DriverVersion":  "685.13804.30.0",
+                                            "DriverDate":  "\/Date(1768867200000)\/",
+                                            "InfName":  "oem117.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) I2C Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5188.522.0.0",
+                                            "DriverDate":  "\/Date(1772668800000)\/",
+                                            "InfName":  "oem76.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) I2C Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5188.522.0.0",
+                                            "DriverDate":  "\/Date(1772668800000)\/",
+                                            "InfName":  "oem76.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) I2C Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5188.522.0.0",
+                                            "DriverDate":  "\/Date(1772668800000)\/",
+                                            "InfName":  "oem76.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) I2C Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5188.522.0.0",
+                                            "DriverDate":  "\/Date(1772668800000)\/",
+                                            "InfName":  "oem76.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) I2C Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "5188.522.0.0",
+                                            "DriverDate":  "\/Date(1772668800000)\/",
+                                            "InfName":  "oem76.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bam Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem21.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Bam Bus Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem21.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm Power Engine Plug-in Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.160.0",
+                                            "DriverDate":  "\/Date(1778716800000)\/",
+                                            "InfName":  "oem167.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Power Management PMIC GLink Device",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "685.13804.20.0",
+                                            "DriverDate":  "\/Date(1765238400000)\/",
+                                            "InfName":  "oem1.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Power Management FGBCL Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem139.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) System Manager PMIC GPIO Framework Extension Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem78.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Power Management PML0",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem32.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Power Management PMIC Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem32.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) ACPI Bridge Device",
+                                            "Manufacturer":  "Qualcomm Technologies Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem17.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Inline Crypto Engine Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem94.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm(R) Inline Crypto Engine Device",
+                                            "Manufacturer":  "Qualcomm Inc.",
+                                            "DriverVersion":  "685.13804.10.0",
+                                            "DriverDate":  "\/Date(1766448000000)\/",
+                                            "InfName":  "oem94.inf"
+                                        },
+                                        {
+                                            "DeviceName":  "Qualcomm SoC Secure Digital host controller",
+                                            "Manufacturer":  "Qualcomm Incorporated",
+                                            "DriverVersion":  "10.0.28000.2804",
+                                            "DriverDate":  "\/Date(1150848000000)\/",
+                                            "InfName":  "sdbus.inf"
+                                        }
+                                    ],
+    "graphics":  [
+                     {
+                         "Name":  "Qualcomm(R) Adreno(TM) X2-90 GPU",
+                         "DriverVersion":  "32.0.149.0"
+                     }
+                 ],
+    "powershell_version":  "5.1.28000.2952",
+    "process_architecture":  "ARM64",
+    "native_architecture_hint":  null,
+    "power_scheme":  "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "python_commands":  [
+                            {
+                                "name":  "python.exe",
+                                "path":  "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe"
+                            },
+                            {
+                                "name":  "python.exe",
+                                "path":  "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+                            },
+                            {
+                                "name":  "python3.exe",
+                                "path":  "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"
+                            },
+                            {
+                                "name":  "py.exe",
+                                "path":  "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe"
+                            }
+                        ],
+    "local_runtime_files":  [
+                                {
+                                    "path":  "runtime\\python.exe",
+                                    "sha256":  "7f1ebbbb04164caf8f8073aafa7f82321fb44695e10fe6a9ebaf2138b63892c4",
+                                    "file_version":  "3.12.10"
+                                },
+                                {
+                                    "path":  "runtime\\python3.dll",
+                                    "sha256":  "9ea121a47056de78a40541290b05bdc19e86daf4723a369472b6568af7ecee54",
+                                    "file_version":  "3.12.10"
+                                },
+                                {
+                                    "path":  "runtime\\python312.dll",
+                                    "sha256":  "84df280a69e539107d2537b36ef1ff6e67713634a5c374c96a600da86939e98f",
+                                    "file_version":  "3.12.10"
+                                },
+                                {
+                                    "path":  "runtime\\pythonw.exe",
+                                    "sha256":  "b079fcdb75f2b14889c20846393f68620e7cad5ffddb1aab9aed6751394b0356",
+                                    "file_version":  "3.12.10"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime\\capi\\onnxruntime.dll",
+                                    "sha256":  "73f0a1ed25a088da5dbc5f76af9c32f8b7dd88033715078b0c04632a9d11f745",
+                                    "file_version":  "1.30.0.20260909.6.f2c39fe"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime\\capi\\onnxruntime_providers_shared.dll",
+                                    "sha256":  "6e04dc215c5d8202b3defb97ea1e21c3e9f6a5375ad60a6057fef66627cd1459",
+                                    "file_version":  "1.30.0.20260909.6.f2c39fe"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime\\capi\\onnxruntime_pybind11_state.pyd",
+                                    "sha256":  "285a742ad07e93860150cc15c8844ea38be00ccb0a7a80d6df79699d58686676",
+                                    "file_version":  null
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\onnxruntime_providers_qnn.dll",
+                                    "sha256":  "21da14e009b36eee070e2c84ff00c2b75d5b5af9adc4b8e85271e5c99d561540",
+                                    "file_version":  "2.6.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnGpu.dll",
+                                    "sha256":  "ce35fab18156bd4acf322bf2fd021b4da0fb3e07be1eea84723d155d790632b5",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtp.dll",
+                                    "sha256":  "2a4406653fd6cf2cbe83d544aa3066776a5d1b99b4cf2d73a446ce841c427e12",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpNetRunExtensions.dll",
+                                    "sha256":  "ccc9315d8f0e9621d591154ba035698d0bcbb68e3f7d9443102c5a92eacfaa2f",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpPrepare.dll",
+                                    "sha256":  "89b3db51ff1a72582315e790abc86c1f9fd72aff894a4fb375a66bfed4d8d38b",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpV68Stub.dll",
+                                    "sha256":  "2fb50f48b903122b2640c565cb612b7e5b578ec8f94239e71a38087fe8d027c5",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpV73Stub.dll",
+                                    "sha256":  "e29df2cc6833118246917b2d2c749eccdd0674bdb422c24487c1843013b0beab",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpV81Stub.dll",
+                                    "sha256":  "970ab0c026183610964dc376f5eee981338942667c76bff0e5472ac3396b010b",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnIr.dll",
+                                    "sha256":  "89bd0b09bf275f2628e13827f3b2ca0baf3811de240cd7b3ce1dc4e209357201",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnSaver.dll",
+                                    "sha256":  "d505c94b8ce40bd5e1bae3e674a1e1a43e397bbd6629a855b0e36aa50118006e",
+                                    "file_version":  "2.50.40.0"
+                                },
+                                {
+                                    "path":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnSystem.dll",
+                                    "sha256":  "0b6daf4691a1ae8cd171911fa2466f3bbac220145bcfc7321b54a6a44fa29aba",
+                                    "file_version":  "2.50.40.0"
+                                }
+                            ],
+    "errors":  [
+
+               ],
+    "inference_performed":  false,
+    "npu_verified":  false,
+    "scope":  "Read-only inventory apart from this output folder. No serial, hostname, account, network, screen, camera or microphone collection. No installs, downloads or policy changes."
+}

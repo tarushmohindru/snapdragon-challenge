@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "source": "Participant pasted the friend's collect_inventory.ps1 JSON in chat on 2026-09-21",
+    "capture_kind": "Selected fields transcribed from user-relayed output; not the original inventory.json file",
+    "is_partial_extract": true,
+    "omitted": "Unrelated peripheral driver rows; all hardware, Windows, Python and execution-status fields relevant to this gate are retained",
+    "original_file_received": false,
+    "original_file_sha256": null,
+    "collection_timestamp_is_target_reported": true
+  },
+  "inventory": {
+    "schema": 1,
+    "collected_utc": "2026-09-20T12:19:03.2458517Z",
+    "manufacturer": "ASUS",
+    "model": "Zenbook A14 UX3407NA",
+    "system_type": "ARM64-based PC",
+    "ram_bytes": 16784158720,
+    "windows": {
+      "caption": "Microsoft Windows 11 Home Single Language",
+      "version": "10.0.28000",
+      "build": "28000",
+      "os_architecture": "ARM 64-bit Processor",
+      "release": {"DisplayVersion": "26H1", "CurrentBuild": "28000", "UBR": 2956}
+    },
+    "processors": [{
+      "Name": "Snapdragon(R) X2 Elite - X2E88100 - Qualcomm Oryon(TM) CPU",
+      "Architecture": 12,
+      "NumberOfCores": 18,
+      "NumberOfLogicalProcessors": 18
+    }],
+    "selected_accelerator_related_drivers": [
+      {
+        "DeviceName": "Snapdragon(R) X2 Elite - X2E88100 - Qualcomm(R) Hexagon(TM) NPU",
+        "Manufacturer": "Qualcomm Technologies, Inc.",
+        "DriverVersion": "30.0.220.11010",
+        "DriverDate": "/Date(1769472000000)/",
+        "InfName": "oem122.inf"
+      },
+      {
+        "DeviceName": "Qualcomm(R) FastRPC Device",
+        "Manufacturer": "Qualcomm Technologies, Inc.",
+        "DriverVersion": "685.13804.20.0",
+        "DriverDate": "/Date(1768176000000)/",
+        "InfName": "oem39.inf"
+      },
+      {
+        "DeviceName": "Qualcomm Compute DSP Subsystem Device",
+        "Manufacturer": "Qualcomm Technologies, Incorporated",
+        "DriverVersion": "685.13804.70.0",
+        "DriverDate": "/Date(1769472000000)/",
+        "InfName": "oem9.inf"
+      },
+      {
+        "DeviceName": "Qualcomm(R) Adreno(TM) X2-90 GPU",
+        "Manufacturer": "Qualcomm Incorporated",
+        "DriverVersion": "32.0.149.0",
+        "DriverDate": "/Date(1770336000000)/",
+        "InfName": "oem14.inf"
+      }
+    ],
+    "graphics": [{"Name": "Qualcomm(R) Adreno(TM) X2-90 GPU", "DriverVersion": "32.0.149.0"}],
+    "powershell_version": "5.1.28000.2952",
+    "process_architecture": "ARM64",
+    "native_architecture_hint": null,
+    "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "python_commands": [
+      {"name": "python.exe", "path": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python312-arm64\\python.exe"},
+      {"name": "python.exe", "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"},
+      {"name": "python3.exe", "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe"},
+      {"name": "py.exe", "path": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe"}
+    ],
+    "local_runtime_files": [],
+    "errors": [],
+    "inference_performed": false,
+    "npu_verified": false,
+    "scope": "Read-only inventory apart from this output folder. No serial, hostname, account, network, screen, camera or microphone collection. No installs, downloads or policy changes."
+  }
+}

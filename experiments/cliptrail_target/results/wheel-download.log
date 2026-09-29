@@ -1,0 +1,46 @@
+Collecting onnxruntime-qnn==2.6.0
+  Downloading onnxruntime_qnn-2.6.0-cp312-cp312-win_arm64.whl.metadata (3.3 kB)
+Collecting numpy
+  Downloading numpy-2.5.3-cp312-cp312-win_arm64.whl.metadata (6.6 kB)
+Collecting coloredlogs (from onnxruntime-qnn==2.6.0)
+  Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+Collecting flatbuffers (from onnxruntime-qnn==2.6.0)
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting onnxruntime>=1.24.2 (from onnxruntime-qnn==2.6.0)
+  Downloading onnxruntime-1.30.0-cp312-cp312-win_arm64.whl.metadata (5.9 kB)
+Collecting packaging (from onnxruntime-qnn==2.6.0)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting protobuf (from onnxruntime-qnn==2.6.0)
+  Downloading protobuf-7.36.2-py3-none-any.whl.metadata (595 bytes)
+Collecting sympy (from onnxruntime-qnn==2.6.0)
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime-qnn==2.6.0)
+  Downloading humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy->onnxruntime-qnn==2.6.0)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Downloading onnxruntime_qnn-2.6.0-cp312-cp312-win_arm64.whl (59.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.2/59.2 MB 2.4 MB/s  0:00:24
+Downloading numpy-2.5.3-cp312-cp312-win_arm64.whl (10.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.5/10.5 MB 2.2 MB/s  0:00:04
+Downloading onnxruntime-1.30.0-cp312-cp312-win_arm64.whl (14.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.2/14.2 MB 2.1 MB/s  0:00:06
+Downloading protobuf-7.36.2-py3-none-any.whl (179 kB)
+Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 3.8 MB/s  0:00:01
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 6.7 MB/s  0:00:00
+Saved ./experiments/cliptrail_target/assets/wheelhouse/onnxruntime_qnn-2.6.0-cp312-cp312-win_arm64.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/numpy-2.5.3-cp312-cp312-win_arm64.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/onnxruntime-1.30.0-cp312-cp312-win_arm64.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/protobuf-7.36.2-py3-none-any.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/coloredlogs-15.0.1-py2.py3-none-any.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/humanfriendly-10.0-py2.py3-none-any.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/flatbuffers-25.12.19-py2.py3-none-any.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/packaging-26.3-py3-none-any.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/sympy-1.14.0-py3-none-any.whl
+Saved ./experiments/cliptrail_target/assets/wheelhouse/mpmath-1.3.0-py3-none-any.whl
+Successfully downloaded onnxruntime-qnn numpy onnxruntime protobuf coloredlogs humanfriendly flatbuffers packaging sympy mpmath

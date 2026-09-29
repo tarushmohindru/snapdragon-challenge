@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-09-20T07:51:35.387658+00:00",
+  "deadline_utc": "2026-09-21T07:51:35.387658+00:00",
+  "duration_hours": 24,
+  "scope": "Obtain one verified native Snapdragon Windows QNN HTP CLIP image embedding. CPU reference alone does not pass.",
+  "status": "expired_unverified",
+  "target_inventory": "user-relayed ASUS X2 Elite inventory received; selected-field extract saved",
+  "npu_verified": false,
+  "stop_rule": "At deadline stop deployment debugging and report exact blocker; do not silently extend.",
+  "bundle": "artifacts/ClipTrail-HTP-smoke-v1.zip",
+  "bundle_sha256": "da18d0aa7b8f44d57154f632cba1fb42f83209d0e9258f5c2808bd60a1ee290d",
+  "last_updated_utc": "2026-09-21T09:57:24.222226+00:00",
+  "blocker": "No returned native ARM64 Python/ORT/QNN smoke execution evidence: no target embedding or ORT/QNN execution/partition traces. Inventory only. No native runtime error observed; direct target access unavailable.",
+  "outcome": "results/deployment-outcome-20260921.json",
+  "deployment_debugging_stopped": true,
+  "next_scope_decision_pending": true
+}

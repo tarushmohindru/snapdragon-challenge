@@ -1,0 +1,17 @@
+{"utc": "2026-09-21T12:38:20.967501+00:00", "stage": "native_architecture", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:38:21.032413+00:00", "stage": "v2_attempt_authorization", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:38:21.035718+00:00", "stage": "bundle_hash_validation", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:06.475406+00:00", "stage": "native_dependencies", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:06.493164+00:00", "stage": "dependency_import", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:06.665636+00:00", "stage": "ort_import", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:06.725614+00:00", "stage": "qnn_plugin_import", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:06.735490+00:00", "stage": "qnn_plugin_registration", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:06.745752+00:00", "stage": "qnn_device_enumeration", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:07.601845+00:00", "stage": "cpu_same_graph", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:07.608494+00:00", "stage": "cpu_session_creation", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 0, "qnn": 0}}
+{"utc": "2026-09-21T12:39:07.780347+00:00", "stage": "cpu_inference", "calls": {"cpu": 0, "qnn": 0}, "run_attempts": {"cpu": 1, "qnn": 0}}
+{"utc": "2026-09-21T12:39:07.912177+00:00", "stage": "qnn_session_creation", "calls": {"cpu": 1, "qnn": 0}, "run_attempts": {"cpu": 1, "qnn": 0}}
+{"utc": "2026-09-21T12:39:14.925981+00:00", "stage": "qnn_inference", "calls": {"cpu": 1, "qnn": 0}, "run_attempts": {"cpu": 1, "qnn": 1}}
+{"utc": "2026-09-21T12:39:15.462715+00:00", "stage": "embedding_validation", "calls": {"cpu": 1, "qnn": 1}, "run_attempts": {"cpu": 1, "qnn": 1}}
+{"utc": "2026-09-21T12:39:15.465750+00:00", "stage": "execution_evidence_collection", "calls": {"cpu": 1, "qnn": 1}, "run_attempts": {"cpu": 1, "qnn": 1}}
+{"utc": "2026-09-21T12:39:15.850884+00:00", "stage": "finished", "calls": {"cpu": 1, "qnn": 1}, "run_attempts": {"cpu": 1, "qnn": 1}}

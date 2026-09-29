@@ -1,0 +1,64 @@
+{
+  "clips": [
+    {
+      "id": "sintel_00",
+      "source_id": "sintel_trailer",
+      "video": "../assets/videos/sintel_trailer-480p.mp4",
+      "start_s": 0,
+      "duration_s": 48,
+      "source_url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4",
+      "attribution": "Blender Foundation / Sintel team; https://durian.blender.org/; local evaluation, no source-video redistribution",
+      "selection_reason": "Fixed chronological windows chosen before model output: trailer first 48s; film 60s windows starting 20s then every 120s. Includes uninformative intervals; no query-conditioned selection."
+    },
+    {
+      "id": "steel_20",
+      "source_id": "tears_of_steel",
+      "video": "../assets/videos/tears_of_steel_720p.mov",
+      "start_s": 20,
+      "duration_s": 60,
+      "source_url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "attribution": "Blender Foundation / Tears of Steel team; https://mango.blender.org/; local evaluation, no source-video redistribution",
+      "selection_reason": "Fixed chronological windows chosen before model output: trailer first 48s; film 60s windows starting 20s then every 120s. Includes uninformative intervals; no query-conditioned selection."
+    },
+    {
+      "id": "steel_140",
+      "source_id": "tears_of_steel",
+      "video": "../assets/videos/tears_of_steel_720p.mov",
+      "start_s": 140,
+      "duration_s": 60,
+      "source_url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "attribution": "Blender Foundation / Tears of Steel team; https://mango.blender.org/; local evaluation, no source-video redistribution",
+      "selection_reason": "Fixed chronological windows chosen before model output: trailer first 48s; film 60s windows starting 20s then every 120s. Includes uninformative intervals; no query-conditioned selection."
+    },
+    {
+      "id": "steel_260",
+      "source_id": "tears_of_steel",
+      "video": "../assets/videos/tears_of_steel_720p.mov",
+      "start_s": 260,
+      "duration_s": 60,
+      "source_url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "attribution": "Blender Foundation / Tears of Steel team; https://mango.blender.org/; local evaluation, no source-video redistribution",
+      "selection_reason": "Fixed chronological windows chosen before model output: trailer first 48s; film 60s windows starting 20s then every 120s. Includes uninformative intervals; no query-conditioned selection."
+    },
+    {
+      "id": "steel_380",
+      "source_id": "tears_of_steel",
+      "video": "../assets/videos/tears_of_steel_720p.mov",
+      "start_s": 380,
+      "duration_s": 60,
+      "source_url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "attribution": "Blender Foundation / Tears of Steel team; https://mango.blender.org/; local evaluation, no source-video redistribution",
+      "selection_reason": "Fixed chronological windows chosen before model output: trailer first 48s; film 60s windows starting 20s then every 120s. Includes uninformative intervals; no query-conditioned selection."
+    },
+    {
+      "id": "steel_500",
+      "source_id": "tears_of_steel",
+      "video": "../assets/videos/tears_of_steel_720p.mov",
+      "start_s": 500,
+      "duration_s": 60,
+      "source_url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "attribution": "Blender Foundation / Tears of Steel team; https://mango.blender.org/; local evaluation, no source-video redistribution",
+      "selection_reason": "Fixed chronological windows chosen before model output: trailer first 48s; film 60s windows starting 20s then every 120s. Includes uninformative intervals; no query-conditioned selection."
+    }
+  ]
+}

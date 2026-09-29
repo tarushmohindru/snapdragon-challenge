@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "provenance": "MEASURED artifact consistency checks, not independent annotation validation",
+  "rows_checked": 120,
+  "vectors_checked": 2040,
+  "unique_images_checked": 441,
+  "actual_calls_excluding_warmup": {
+    "image": 1920,
+    "text": 120
+  },
+  "manifest_sha256": "6cbbe1d999faed1f1f3c7238de5c4327a5782c85c30d7fcbb674e44080e3ea46",
+  "report_sha256": "e00269d74be7ec9468c78a370dc65a5aa41e4c56833f03e6bc5a938ea94c59f3",
+  "embeddings_sha256": "63976b6eae35414cf666539c081307e8f667144f209fb92044045d53c4a44aac",
+  "checks": [
+    "frozen corpus/protocol/code",
+    "query and interval equality",
+    "exact inference budgets",
+    "unit vector norms",
+    "raw vector cosine/ranking",
+    "repeat image consistency",
+    "no embedding-offset reuse",
+    "metric and gate recomputation",
+    "stage timing covers encodes"
+  ]
+}

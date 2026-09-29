@@ -1,0 +1,392 @@
+{
+  "schema": 2,
+  "bundle_version": "v2",
+  "started_utc": "2026-09-21T12:38:20.967501+00:00",
+  "status": "INCOMPLETE_EVIDENCE",
+  "inference_performed": true,
+  "npu_verified": false,
+  "gate_checks": {
+    "native_windows_arm64": true,
+    "bundle_hashes_valid": true,
+    "runtime_versions_match": true,
+    "qnn_npu_device_selected": true,
+    "requested_pinned_htp_backend": true,
+    "strict_cpu_fallback_disabled": true,
+    "inference_completed": true,
+    "finite_unit_embedding": true,
+    "embedding_parity_passed": true,
+    "qnn_compute_executed": true,
+    "only_qnn_compute": true,
+    "pinned_htp_loaded": true,
+    "qnn_hardware_work_seen": false
+  },
+  "calls": {
+    "cpu": 1,
+    "qnn": 1
+  },
+  "run_attempts": {
+    "cpu": 1,
+    "qnn": 1
+  },
+  "session_creation_attempts": {
+    "cpu": 1,
+    "qnn": 1
+  },
+  "automatic_retries": false,
+  "stage_results": {
+    "native_arm64_python_initialized": true,
+    "ort_imported": true,
+    "qnn_plugin_imported": true,
+    "qnn_provider_registered": true,
+    "cpu_graph_loaded": true,
+    "prepared_graph_loaded_qnn": true,
+    "prepared_graph_executed_qnn": true,
+    "valid_embedding_produced": true,
+    "automated_htp_evidence_complete": false
+  },
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "onnxruntime": "1.30.0",
+    "build_info": "ORT Build Info: git-branch=HEAD, git-commit-id=f2c39fe, fp8-kv-cache=1, build type=Release",
+    "available_builtin_providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "telemetry_disabled_via_api": true,
+    "qnn_plugin": "2.6.0",
+    "qairt": "2.50.40",
+    "qnn_plugin_library": "runtime\\Lib\\site-packages\\onnxruntime_qnn\\onnxruntime_providers_qnn.dll"
+  },
+  "diagnostic_errors": [],
+  "stage": "finished",
+  "last_checkpoint_utc": "2026-09-21T12:39:15.850884+00:00",
+  "native": {
+    "system": "Windows",
+    "python": "3.12.10",
+    "machine": "ARM64",
+    "pointer_bits": 64,
+    "native_windows_arm64": true,
+    "process_machine": "0x0",
+    "native_machine": "0xaa64",
+    "python_pe_machine": "0xaa64"
+  },
+  "manifest_sha256": "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f",
+  "attempt_claim": {
+    "authorization_id": "cliptrail-htp-v2-asus-x2e88100-one-attempt",
+    "token": "9573326e26d14425a95a116089f9b757",
+    "started_utc": "2026-09-21T12:38:21.035718+00:00",
+    "pid": 2156,
+    "manifest_sha256": "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f"
+  },
+  "target_inventory": {
+    "file": "inventory-20260921T123815018Z\\inventory.json",
+    "sha256": "29fdb6b16338d897a8b6a03e730581807eafc521343531480461054c1f1b48cb",
+    "manufacturer": "ASUS",
+    "model": "Zenbook A14 UX3407NA",
+    "processors": [
+      {
+        "Name": "Snapdragon(R) X2 Elite - X2E88100 - Qualcomm Oryon(TM) CPU",
+        "Architecture": 12,
+        "NumberOfCores": 18,
+        "NumberOfLogicalProcessors": 18
+      }
+    ],
+    "windows": {
+      "caption": "Microsoft Windows 11 Home Single Language",
+      "version": "10.0.28000",
+      "build": "28000",
+      "os_architecture": "ARM 64-bit Processor",
+      "release": {
+        "DisplayVersion": "26H1",
+        "CurrentBuild": "28000",
+        "UBR": 2956
+      }
+    },
+    "ram_bytes": 16784158720,
+    "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "inventory_errors": []
+  },
+  "dll_directory_added": "runtime/Lib/site-packages/onnxruntime/capi",
+  "native_dependencies": [
+    {
+      "name": "msvcp140.dll",
+      "loaded": true,
+      "required_before_ort_import": true,
+      "sha256": "167ceac85c2d726c4cd9e39b8881fafdc6de1520c0e67c4f6b271235f9d2a6c5",
+      "pe_machine": "0xaa64",
+      "location": "System32",
+      "file_name": "msvcp140.dll"
+    },
+    {
+      "name": "msvcp140_1.dll",
+      "loaded": true,
+      "required_before_ort_import": true,
+      "sha256": "c7713c2061b29d24de4874923522ada0815cfca80d09265c181e81d16c7c42d6",
+      "pe_machine": "0xaa64",
+      "location": "System32",
+      "file_name": "msvcp140_1.dll"
+    },
+    {
+      "name": "libcdsprpc.dll",
+      "loaded": false,
+      "required_before_ort_import": false,
+      "error": "Could not find module 'libcdsprpc.dll' (or one of its dependencies). Try using the full path with constructor syntax.",
+      "winerror": null
+    }
+  ],
+  "ep_devices": [
+    {
+      "name": "CPUExecutionProvider",
+      "vendor": "Microsoft",
+      "device_type": "OrtHardwareDeviceType.CPU",
+      "vendor_id": 1297040209,
+      "device_id": 7,
+      "device_metadata": {
+        "Description": "Snapdragon(R) X2 Elite - X2E88100 - Qualcomm Oryon(TM) CPU"
+      },
+      "ep_metadata": {
+        "version": "1.30.0"
+      }
+    },
+    {
+      "name": "QNNExecutionProvider",
+      "vendor": "Qualcomm",
+      "device_type": "OrtHardwareDeviceType.NPU",
+      "vendor_id": 1297040209,
+      "device_id": 809911856,
+      "device_metadata": {
+        "LUID": "77611"
+      },
+      "ep_metadata": {
+        "library_path": "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2\\runtime\\Lib\\site-packages\\onnxruntime_qnn\\onnxruntime_providers_qnn.dll",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "QNNExecutionProvider",
+      "vendor": "Qualcomm",
+      "device_type": "OrtHardwareDeviceType.GPU",
+      "vendor_id": 1297040209,
+      "device_id": 909329968,
+      "device_metadata": {
+        "Description": "Qualcomm(R) Adreno(TM) X2-90 GPU",
+        "Discrete": "0",
+        "DxgiAdapterNumber": "0",
+        "DxgiHighPerformanceIndex": "0",
+        "DxgiVideoMemory": "128 MB",
+        "LUID": "76750"
+      },
+      "ep_metadata": {
+        "library_path": "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2\\runtime\\Lib\\site-packages\\onnxruntime_qnn\\onnxruntime_providers_qnn.dll",
+        "version": "0.1.0"
+      }
+    }
+  ],
+  "model_sha256": "110bb22c56b7232c5236c7fb68d5e5101f8ff70720adbdd86730e78247af4631",
+  "precision": "float",
+  "input_sha256": "c8846d5c9ed01bfa0d88f6edffbda35e7d1ac9afa69d75a4b3f1090fe2e3f47d",
+  "reference_sha256": "0d4c27fda153744a09a3b87aca9a20742a9934ebe29e9cefef7bd1f477279986",
+  "cpu_session_providers": [
+    "CPUExecutionProvider"
+  ],
+  "cpu_call_ms": 89.01109999999335,
+  "cpu_embedding_sha256": "5edaa3e4723c87209d64ce7d4d79cf0e49f78a0299e6d34e838e7dabb8391835",
+  "target_cpu_vs_frozen": {
+    "cosine": 1.000000238418579,
+    "max_absolute_error": 5.101319402456284e-07,
+    "norm": 0.9999998211860657,
+    "reference_norm": 0.9999999403953552,
+    "limits": {
+      "cosine_min": 0.99999,
+      "max_abs_max": 0.001
+    },
+    "finite_unit_embedding": true,
+    "pass": true
+  },
+  "requested_provider_options": {
+    "backend_path": "runtime/Lib/site-packages/onnxruntime_qnn/QnnHtp.dll",
+    "profiling_level": "detailed",
+    "profiling_file_path": "qnn-profile.csv",
+    "offload_graph_io_quantization": "0",
+    "enable_htp_fp16_precision": "1",
+    "htp_performance_mode": "balanced",
+    "enable_framework_op_trace": "1",
+    "framework_op_trace_dir": "this evidence directory"
+  },
+  "qnn_session_init_ms": 7011.70019999995,
+  "session_providers": [
+    "QNNExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "session_provider_options": {
+    "QNNExecutionProvider": {
+      "offload_graph_io_quantization": "0",
+      "profiling_file_path": "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2\\evidence\\smoke-v2-20260921T123814481Z-9573326e\\qnn-profile.csv",
+      "backend_path": "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2\\runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtp.dll",
+      "enable_framework_op_trace": "1",
+      "profiling_level": "detailed",
+      "htp_performance_mode": "balanced",
+      "enable_htp_fp16_precision": "1",
+      "framework_op_trace_dir": "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2\\evidence\\smoke-v2-20260921T123814481Z-9573326e"
+    },
+    "CPUExecutionProvider": {}
+  },
+  "qnn_profiled_call_ms": 511.7389000000685,
+  "qnn_embedding_sha256": "c85e4f356bb318585ff0725856a013669c1e9842b11806365736c45bb160e7e1",
+  "qnn_vs_frozen": {
+    "cosine": 0.9999828338623047,
+    "max_absolute_error": 0.0011736899614334106,
+    "norm": 1.0000919103622437,
+    "reference_norm": 0.9999999403953552,
+    "limits": {
+      "cosine_min": 0.999,
+      "max_abs_max": 0.02
+    },
+    "finite_unit_embedding": true,
+    "pass": true
+  },
+  "ort_profile_file": "ort-profile_2026-09-21_18-09-07_915.json",
+  "placement": {
+    "counts": {
+      "QNNExecutionProvider": 1
+    },
+    "executed_nodes": [
+      {
+        "name": "QNNExecutionProvider_QNNExecutionProvider_3058003072210644008_1_0_kernel_time",
+        "duration_us": 511435,
+        "provider": "QNNExecutionProvider",
+        "op_name": "QNNExecutionProvider_3058003072210644008_1"
+      }
+    ],
+    "qnn_executed": true,
+    "only_qnn_compute": true
+  },
+  "loaded_modules": [
+    {
+      "name": "VCRUNTIME140.dll",
+      "path": "runtime\\vcruntime140.dll",
+      "inside_bundle": true,
+      "sha256": "560cd0ab1ec81b8b2197b119e198453a9c23d2f9e846f15c79a26bf5d75b68c4",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "msvcp_win.dll",
+      "path": "msvcp_win.dll",
+      "inside_bundle": false,
+      "sha256": "bcd32ee1e11507607244c881b42bc36a32b3255ac6fe7dbc3d808c7a1e9fc248",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "msvcp140.dll",
+      "path": "msvcp140.dll",
+      "inside_bundle": false,
+      "sha256": "167ceac85c2d726c4cd9e39b8881fafdc6de1520c0e67c4f6b271235f9d2a6c5",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "msvcp140_1.dll",
+      "path": "msvcp140_1.dll",
+      "inside_bundle": false,
+      "sha256": "c7713c2061b29d24de4874923522ada0815cfca80d09265c181e81d16c7c42d6",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "msvcp140-5f1c5dd31916990d94181e07bc3afb32.dll",
+      "path": "runtime\\Lib\\site-packages\\numpy.libs\\msvcp140-5f1c5dd31916990d94181e07bc3afb32.dll",
+      "inside_bundle": true,
+      "sha256": "5f1c5dd31916990d94181e07bc3afb32be3db58f043b9f8d649e2415862f66bf",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "onnxruntime_pybind11_state.pyd",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime\\capi\\onnxruntime_pybind11_state.pyd",
+      "inside_bundle": true,
+      "sha256": "285a742ad07e93860150cc15c8844ea38be00ccb0a7a80d6df79699d58686676",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "onnxruntime_providers_shared.dll",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime\\capi\\onnxruntime_providers_shared.dll",
+      "inside_bundle": true,
+      "sha256": "6e04dc215c5d8202b3defb97ea1e21c3e9f6a5375ad60a6057fef66627cd1459",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "onnxruntime_providers_qnn.dll",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime_qnn\\onnxruntime_providers_qnn.dll",
+      "inside_bundle": true,
+      "sha256": "21da14e009b36eee070e2c84ff00c2b75d5b5af9adc4b8e85271e5c99d561540",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "libcdsprpc.dll",
+      "path": "libcdsprpc.dll",
+      "inside_bundle": false,
+      "sha256": "5cf6aa86670cceb84461050ad00b012662e4859d15be2a1cf147d98d5002f37d",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "QnnHtp.dll",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtp.dll",
+      "inside_bundle": true,
+      "sha256": "2a4406653fd6cf2cbe83d544aa3066776a5d1b99b4cf2d73a446ce841c427e12",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "QnnHtpV81Stub.dll",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpV81Stub.dll",
+      "inside_bundle": true,
+      "sha256": "970ab0c026183610964dc376f5eee981338942667c76bff0e5472ac3396b010b",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "QnnSystem.dll",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnSystem.dll",
+      "inside_bundle": true,
+      "sha256": "0b6daf4691a1ae8cd171911fa2466f3bbac220145bcfc7321b54a6a44fa29aba",
+      "pe_machine": "0xaa64"
+    },
+    {
+      "name": "QnnHtpPrepare.dll",
+      "path": "runtime\\Lib\\site-packages\\onnxruntime_qnn\\QnnHtpPrepare.dll",
+      "inside_bundle": true,
+      "sha256": "89b3db51ff1a72582315e790abc86c1f9fd72aff894a4fb375a66bfed4d8d38b",
+      "pe_machine": "0xaa64"
+    }
+  ],
+  "htp_profile": {
+    "hardware_work_seen": false,
+    "reason": "No QNN profile produced"
+  },
+  "verification": {
+    "checks": {
+      "native_windows_arm64": true,
+      "bundle_hashes_valid": true,
+      "runtime_versions_match": true,
+      "qnn_npu_device_selected": true,
+      "strict_cpu_fallback_disabled": true,
+      "requested_pinned_htp_backend": true,
+      "pinned_htp_loaded": true,
+      "inference_completed": true,
+      "qnn_compute_executed": true,
+      "only_qnn_compute": true,
+      "qnn_hardware_work_seen": false,
+      "finite_unit_embedding": true,
+      "embedding_parity_passed": true
+    },
+    "evidence_complete": false,
+    "missing": [
+      "qnn_hardware_work_seen"
+    ],
+    "npu_verified": false,
+    "review_required": "Review returned raw inventory, module identities, ORT placement/profile and QNN hardware events before recording final HTP verification."
+  },
+  "finished_utc": "2026-09-21T12:39:15.836022+00:00",
+  "result_hashes": {
+    "cpu_embedding.npy": "5edaa3e4723c87209d64ce7d4d79cf0e49f78a0299e6d34e838e7dabb8391835",
+    "ort-profile_2026-09-21_18-09-07_915.json": "a50747014cc539c58795411989f34845391ebf6619f349c4049f2575e400d957",
+    "qnn_embedding.npy": "c85e4f356bb318585ff0725856a013669c1e9842b11806365736c45bb160e7e1",
+    "qnn_op_trace.json": "f2cf59aa90f63f2438423e1b97caaaf0a1e5876910e6e8fab27b871e75eb4082"
+  }
+}

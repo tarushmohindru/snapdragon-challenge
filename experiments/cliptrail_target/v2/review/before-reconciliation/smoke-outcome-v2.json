@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "authorization_id": "cliptrail-htp-v2-asus-x2e88100-one-attempt",
+  "status": "AWAITING_SINGLE_TARGET_ATTEMPT",
+  "updated_utc": "2026-09-21T10:19:04.589713+00:00",
+  "max_attempts": 1,
+  "timeout_seconds": 600,
+  "automatic_retries": false,
+  "target_attempts_observed": 0,
+  "native_initialization": null,
+  "qnn_provider_load": null,
+  "graph_execution": null,
+  "htp_evidence": null,
+  "embedding_parity": null,
+  "runtime_observed": null,
+  "warnings_or_fallback_partitions": null,
+  "npu_verified": false,
+  "systems_benchmark_started": false,
+  "v2_zip_sha256": "170a99c641c585445198963845a2dfe443354cdbdbdeccc5928bd9bac353b6f9",
+  "note": "This is a pending handoff record, not a native result. Preserve returned raw evidence before updating the outcome."
+}

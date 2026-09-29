@@ -1,0 +1,11 @@
+# Numeric and document evidence is byte-oriented.
+*.f32 -text -diff
+*.npy -text -diff
+*.npz -text -diff
+*.pdf -text -diff
+
+# Returned and target-result evidence preserves original Windows encodings and line endings.
+experiments/cliptrail_target/v2/review/returned/** -text -diff
+experiments/cliptrail_target/v2/review/sources/** -text -diff
+experiments/cliptrail_target/results/** -text -diff
+experiments/cliptrail_target/bundle/CLIP_LICENSE.txt -text -diff

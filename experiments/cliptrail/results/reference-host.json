@@ -1,0 +1,8 @@
+{
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "architecture": "x86_64",
+  "cpu_model": "AMD Ryzen 5 5600H with Radeon Graphics",
+  "benchmark_threads": 2,
+  "source": "Direct local /proc/cpuinfo and platform inspection",
+  "npu_verified": false
+}

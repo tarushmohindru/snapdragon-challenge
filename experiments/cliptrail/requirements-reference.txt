@@ -1,0 +1,6 @@
+# CPU reference only; provision_reference.sh installs the matching CPU torch wheel.
+transformers==4.57.1
+huggingface-hub==0.36.0
+numpy==2.3.3
+Pillow==11.3.0
+av==15.1.0

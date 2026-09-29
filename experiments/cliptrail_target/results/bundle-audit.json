@@ -1,0 +1,17 @@
+{
+  "status": "ASSEMBLED_STATIC_CHECKS_PASS",
+  "zip_file": "artifacts/ClipTrail-HTP-smoke-v1.zip",
+  "zip_sha256": "da18d0aa7b8f44d57154f632cba1fb42f83209d0e9258f5c2808bd60a1ee290d",
+  "zip_bytes": 315717864,
+  "manifest_sha256": "b8def9935be3b9d982b07c886c9596a142a465b99379655becd3ea93b13baf4d",
+  "files_checked": 3150,
+  "pe_machines": {
+    "runtime/python.exe": "0xaa64",
+    "runtime/Lib/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.pyd": "0xaa64",
+    "runtime/Lib/site-packages/onnxruntime/capi/onnxruntime.dll": "0xaa64",
+    "runtime/Lib/site-packages/onnxruntime_qnn/QnnHtp.dll": "0xaa64",
+    "runtime/Lib/site-packages/onnxruntime_qnn/onnxruntime_providers_qnn.dll": "0xaa64"
+  },
+  "native_runtime_executed": false,
+  "npu_verified": false
+}

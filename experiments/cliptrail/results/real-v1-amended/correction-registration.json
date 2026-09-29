@@ -1,0 +1,14 @@
+{
+  "reason": "Post-run correction of the supplemental hybrid control, not adaptive tuning.\n\nv1 mistakenly iterated changed(changes, N), which sorts its output by timestamp\nand returns all frames. Correct the preregistered 'strongest distinct changes'\ndefinition: half uniform, then descending pixel change, skipping duplicates.\nRequired baselines/hierarchical/data/thresholds stay byte-for-byte unchanged.\n",
+  "frozen_before_correction_utc": "2026-09-20T06:50:10.536848+00:00",
+  "script_sha256": "f2f110532771cdd16031361a78823117a8123e3cf9054e2a556790aa88f67e6e",
+  "original_report_sha256": "a7bd771831d69a9d565e0010904b4fa957372cb7ad6b65debb688fe5b1ee2c81",
+  "reused_methods": [
+    "uniform",
+    "change",
+    "scene",
+    "hierarchical"
+  ],
+  "rerun_method": "hybrid",
+  "annotations_or_thresholds_changed": false
+}

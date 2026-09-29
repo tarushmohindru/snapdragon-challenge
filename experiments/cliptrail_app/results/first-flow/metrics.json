@@ -1,0 +1,25 @@
+{
+  "index_path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/first-flow/index.sqlite3",
+  "videos": [
+    {
+      "id": 1,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail/assets/videos/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "source_sha256": "b670602fa00934ca27c4351bb0efe7ea7a07fae57284e44226025eeed7c51254",
+      "source_bytes": 4372373,
+      "backend_identity": "cpu:7cc20e621196ecd89ac85d9a",
+      "sampler_id": "frozen-scene-v1-4hz-60s-b16",
+      "duration_s": 52.416666666666664,
+      "decoded_frames": 1253,
+      "candidate_frames": 209,
+      "selected_frames": 16,
+      "index_elapsed_s": 6.700306407000426,
+      "logical_storage_bytes": 157307,
+      "indexed_utc": "2026-09-22T11:29:02.889547+00:00",
+      "index_s_per_video_min": 7.67,
+      "logical_bytes_per_video_min": 180065.2
+    }
+  ],
+  "index_disk_bytes": 241664,
+  "measurement_note": "Index durations are per-video local runs; logical storage excludes SQLite page overhead. Query latency is printed by search for a prebuilt index."
+}

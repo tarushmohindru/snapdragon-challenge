@@ -1,0 +1,98 @@
+﻿{
+    "schema":  2,
+    "version":  "v2",
+    "authorization_id":  "cliptrail-htp-v2-asus-x2e88100-one-attempt",
+    "explicit_extension_after_v1_cutoff":  true,
+    "started_utc":  "2026-09-21T12:38:14.4812721Z",
+    "status":  "INCOMPLETE_EVIDENCE",
+    "timeout_seconds":  600,
+    "max_attempts":  1,
+    "automatic_retries":  false,
+    "attempt_claimed":  true,
+    "child_started":  true,
+    "timed_out":  false,
+    "child_exit_code":  -1073741819,
+    "child_exit_code_hex":  "C0000005",
+    "native_exit_code":  -1073741819,
+    "native_exit_code_hex":  "C0000005",
+    "termination_requested":  false,
+    "termination_confirmed":  null,
+    "native_execution_status":  "INCOMPLETE_EVIDENCE",
+    "htp_verification":  "unverified",
+    "npu_verified":  false,
+    "embedding_parity":  {
+                             "cosine":  0.9999828338623047,
+                             "max_absolute_error":  0.0011736899614334106,
+                             "norm":  1.0000919103622437,
+                             "reference_norm":  0.9999999403953552,
+                             "limits":  {
+                                            "cosine_min":  0.999,
+                                            "max_abs_max":  0.02
+                                        },
+                             "finite_unit_embedding":  true,
+                             "pass":  true
+                         },
+    "stage_results":  {
+                          "native_arm64_python_initialized":  true,
+                          "ort_imported":  true,
+                          "qnn_plugin_imported":  true,
+                          "qnn_provider_registered":  true,
+                          "cpu_graph_loaded":  true,
+                          "prepared_graph_loaded_qnn":  true,
+                          "prepared_graph_executed_qnn":  true,
+                          "valid_embedding_produced":  true,
+                          "automated_htp_evidence_complete":  false
+                      },
+    "runtime_observed":  {
+                             "python":  "3.12.10",
+                             "numpy":  "2.5.3",
+                             "onnxruntime":  "1.30.0",
+                             "build_info":  "ORT Build Info: git-branch=HEAD, git-commit-id=f2c39fe, fp8-kv-cache=1, build type=Release",
+                             "available_builtin_providers":  [
+                                                                 "AzureExecutionProvider",
+                                                                 "CPUExecutionProvider"
+                                                             ],
+                             "telemetry_disabled_via_api":  true,
+                             "qnn_plugin":  "2.6.0",
+                             "qairt":  "2.50.40",
+                             "qnn_plugin_library":  "runtime\\Lib\\site-packages\\onnxruntime_qnn\\onnxruntime_providers_qnn.dll"
+                         },
+    "systems_benchmark_started":  false,
+    "review_required":  true,
+    "manifest_sha256":  "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f",
+    "child_pid":  18196,
+    "attempt_finished_utc":  "2026-09-21T12:39:22.0223171Z",
+    "attempt_elapsed_ms":  67538.0324,
+    "last_child_stage":  "native_python_exited",
+    "last_native_stage":  "finished",
+    "failed_native_stage":  null,
+    "reported_provider_information":  [
+                                          "QNNExecutionProvider",
+                                          "CPUExecutionProvider"
+                                      ],
+    "qnn_embedding_sha256":  "c85e4f356bb318585ff0725856a013669c1e9842b11806365736c45bb160e7e1",
+    "automated_evidence_checks":  {
+                                      "checks":  {
+                                                     "native_windows_arm64":  true,
+                                                     "bundle_hashes_valid":  true,
+                                                     "runtime_versions_match":  true,
+                                                     "qnn_npu_device_selected":  true,
+                                                     "strict_cpu_fallback_disabled":  true,
+                                                     "requested_pinned_htp_backend":  true,
+                                                     "pinned_htp_loaded":  true,
+                                                     "inference_completed":  true,
+                                                     "qnn_compute_executed":  true,
+                                                     "only_qnn_compute":  true,
+                                                     "qnn_hardware_work_seen":  false,
+                                                     "finite_unit_embedding":  true,
+                                                     "embedding_parity_passed":  true
+                                                 },
+                                      "evidence_complete":  false,
+                                      "missing":  [
+                                                      "qnn_hardware_work_seen"
+                                                  ],
+                                      "npu_verified":  false,
+                                      "review_required":  "Review returned raw inventory, module identities, ORT placement/profile and QNN hardware events before recording final HTP verification."
+                                  },
+    "return_code":  -1073741819
+}

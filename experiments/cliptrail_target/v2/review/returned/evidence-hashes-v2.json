@@ -1,0 +1,19 @@
+﻿{
+    "attempt-ticket.json":  "ecb20b7ad1957549e270c29ab21e1d578b7138e37eb178d7a0c0d955933fe33a",
+    "attempt.stderr.log":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "attempt.stdout.log":  "51952a3e91695d2532bf5d6c787465306fafda2355a4cf8e146d6295724a5fd6",
+    "authorization-v2.json":  "84cdb8967d53ed7086fd51c2e0db0d86fb5b3e0fa73f62d53199d9d74ca12016",
+    "bundle-manifest-v2.json":  "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f",
+    "cpu_embedding.npy":  "5edaa3e4723c87209d64ce7d4d79cf0e49f78a0299e6d34e838e7dabb8391835",
+    "native-child.json":  "9abe3939fb0fc3bba0115f252622484546819ac3895747c8562da9615e7c2387",
+    "ort-profile_2026-09-21_18-09-07_915.json":  "a50747014cc539c58795411989f34845391ebf6619f349c4049f2575e400d957",
+    "python.stderr.log":  "b7d873489c893b684a057b100146e67274febee30c200cae99e1200e58f58de2",
+    "python.stdout.log":  "c530f282ab990f364339c8dcbd9995204e87eeb7920f7aaa4996a5333339a186",
+    "qnn_embedding.npy":  "c85e4f356bb318585ff0725856a013669c1e9842b11806365736c45bb160e7e1",
+    "qnn_op_trace.json":  "f2cf59aa90f63f2438423e1b97caaaf0a1e5876910e6e8fab27b871e75eb4082",
+    "smoke-outcome-v2.json":  "30f1abe8dcd7d7f67ae767e5627c7ce6eb418bb459eb4fb4c4a87e00009f659e",
+    "smoke.json":  "9e8b83ebf4fd377406d1e451b2bab8c5717b4027e63a9d48c356f9ca314af7a3",
+    "stages.jsonl":  "de18276f86543ed1d43a62eee1bc1f98e8e2b1ed1d8e90d2a6bf17649a28f210",
+    "supervisor.log":  "718905d4efc526ca40f499d4220fd9f087fe31890e28d29dd7c7105eb14588c2",
+    "inventory-20260921T123815018Z\\inventory.json":  "29fdb6b16338d897a8b6a03e730581807eafc521343531480461054c1f1b48cb"
+}

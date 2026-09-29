@@ -1,0 +1,19 @@
+# Final claims audit
+
+Audited 29 September 2026. Scope: root README, architecture/evidence/positioning/publication docs, authoritative submission Markdown, exported Brief DOCX/PDF, seven-slide Pitch PPTX/PDF and speaker notes, exact demo narration/overlays/poster, GitHub description suggestion, portal copy, and this final handoff. The actual authenticated Unstop text is not available; the participant must check it before submission.
+
+| Claim | Public artifact(s) | Status | Evidence and required scope |
+| --- | --- | --- | --- |
+| Local video/folder indexing, SQLite persistence, natural-language search, ranked thumbnails/filenames/timestamps/scores, source playback | README, brief, deck, demo, portal copy | **Supported** | Application code/tests and the real browser capture. The demo used a previously persisted three-video CPU index; it does not present indexing as live. |
+| Canonical Sintel result at 23.25 s, score about 0.357 | Demo video/poster, deck frame, scripts | **Supported** | Actual persisted-index search returned `sintel_trailer-480p.mp4` at 23.25 s with similarity 0.3574781888, and captured browser playback sought past 23.2 s without a media error. |
+| Frozen scene midpoint Recall@1 83.33%, Recall@3 87.50%, short-event Recall@3 81.82% | README, brief, deck, values | **Supported only for small frozen corpus** | `experiments/cliptrail/results/real-v1-amended/report.json`: 24 positive queries, 11 short-event queries, six windows, two public films. No arbitrary-library or absence-query claim. |
+| 27.45 ms median warm query; 34.70 ms measured max | README, brief, deck, video, values | **Supported for recorded CPU run** | `experiments/cliptrail_app/results/persistent-demo/validation.json`: five post-first searches, prebuilt 48-frame index, loaded CPU model, AMD Ryzen 5 5600H WSL2/Linux. The video displays the median, not a Snapdragon result. |
+| 6.80 s indexing per video minute after model load | README, brief, deck, values | **Supported for recorded CPU run** | Same validation JSON; one three-video run. Model startup excluded. |
+| About 250 KB logical vectors + JPEG thumbnails per video minute | README, deck, video, values | **Supported for recorded CPU run** | Same validation JSON: 250,186 logical bytes/video minute. Excludes source media, browser copies, and SQLite overhead. |
+| Native ARM64/QNN provider execution, pinned HTP loading, one QNN partition, output parity | README, brief, deck, video, values | **Supported at provider level** | `experiments/cliptrail_target/v2/review/evidence-audit.json` and `project/planning/cliptrail-deployment-outcome-v2.md`: one fixed image graph on an ASUS Snapdragon X2 Elite; cosine 0.999982834 versus CPU. The full application was not deployed on target. |
+| Physical NPU execution | All public materials | **Explicitly unverified** | No positive hardware profiler device event or attributable HTP cycles. The video closing card and narration say physical NPU execution remains unverified. |
+| NPU acceleration, Snapdragon speedup, energy benefit, HP deployment/performance, production QNN stability | All public materials | **Not claimed** | No supporting evidence exists. Where these terms appear, they are explicit exclusions or future-work boundaries. |
+
+The Brief PDF is one page and the Pitch PDF is seven pages; both rendered without clipping in local visual inspection. DOCX/PPTX packages and seven slide-note parts validate structurally. The video is 88.000 seconds, H.264/AAC, 1920×1080, screen-only. Its opening establishes the problem, the real result appears before 0:43, and real source playback appears before 1:00. `demo/credits.md` covers the film and music.
+
+Before portal submission, scan the final **live field text**, all uploaded previews, GitHub metadata, and any hosted-video description for unsupported semantic equivalents. Native Word/PowerPoint rendering and the participant's final video viewing remain personal visual review.

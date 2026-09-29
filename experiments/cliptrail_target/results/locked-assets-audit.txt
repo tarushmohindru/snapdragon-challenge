@@ -1,0 +1,13 @@
+Verified openai_clip-0.62.2-float.zip
+Verified python-3.12.10-embed-arm64.zip
+Verified coloredlogs-15.0.1-py2.py3-none-any.whl
+Verified flatbuffers-25.12.19-py2.py3-none-any.whl
+Verified humanfriendly-10.0-py2.py3-none-any.whl
+Verified mpmath-1.3.0-py3-none-any.whl
+Verified numpy-2.5.3-cp312-cp312-win_arm64.whl
+Verified onnxruntime-1.30.0-cp312-cp312-win_arm64.whl
+Verified onnxruntime_qnn-2.6.0-cp312-cp312-win_arm64.whl
+Verified packaging-26.3-py3-none-any.whl
+Verified protobuf-7.36.2-py3-none-any.whl
+Verified sympy-1.14.0-py3-none-any.whl
+Locked assets verified. No inference performed.

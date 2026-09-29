@@ -1,0 +1,61 @@
+{
+  "index_path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/persistent-demo/index.sqlite3",
+  "videos": [
+    {
+      "id": 1,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "source_sha256": "b670602fa00934ca27c4351bb0efe7ea7a07fae57284e44226025eeed7c51254",
+      "source_bytes": 4372373,
+      "backend_identity": "cpu:7cc20e621196ecd89ac85d9a",
+      "sampler_id": "frozen-scene-v1-4hz-60s-b16",
+      "duration_s": 52.416666666666664,
+      "decoded_frames": 1253,
+      "candidate_frames": 209,
+      "selected_frames": 16,
+      "index_elapsed_s": 6.6692819299987605,
+      "logical_storage_bytes": 157307,
+      "indexed_utc": "2026-09-22T11:52:55.180333+00:00",
+      "index_s_per_video_min": 7.634,
+      "logical_bytes_per_video_min": 180065.2
+    },
+    {
+      "id": 2,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/steel_early.mov",
+      "filename": "steel_early.mov",
+      "source_sha256": "81dc3db69587217c97dc61f93d3e7ae4d7741e8154bde23016de091df4e8d80d",
+      "source_bytes": 552850,
+      "backend_identity": "cpu:7cc20e621196ecd89ac85d9a",
+      "sampler_id": "frozen-scene-v1-4hz-60s-b16",
+      "duration_s": 42.166666666666664,
+      "decoded_frames": 504,
+      "candidate_frames": 168,
+      "selected_frames": 16,
+      "index_elapsed_s": 4.343377877999956,
+      "logical_storage_bytes": 219476,
+      "indexed_utc": "2026-09-22T11:52:59.540192+00:00",
+      "index_s_per_video_min": 6.18,
+      "logical_bytes_per_video_min": 312297.9
+    },
+    {
+      "id": 3,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/steel_late.mov",
+      "filename": "steel_late.mov",
+      "source_sha256": "90cbfc6f63fad8170c39216ed0c7baf9d79e3530767c9c106b53349d204a8f6d",
+      "source_bytes": 603506,
+      "backend_identity": "cpu:7cc20e621196ecd89ac85d9a",
+      "sampler_id": "frozen-scene-v1-4hz-60s-b16",
+      "duration_s": 42.166666666666664,
+      "decoded_frames": 504,
+      "candidate_frames": 168,
+      "selected_frames": 16,
+      "index_elapsed_s": 4.424379177000446,
+      "logical_storage_bytes": 193432,
+      "indexed_utc": "2026-09-22T11:53:03.982085+00:00",
+      "index_s_per_video_min": 6.296,
+      "logical_bytes_per_video_min": 275239.2
+    }
+  ],
+  "selected_frames": 48,
+  "index_disk_bytes": 671744
+}

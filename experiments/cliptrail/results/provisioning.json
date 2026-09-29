@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "status": "completed",
+  "python": "3.12.14",
+  "model": {
+    "repo_id": "openai/clip-vit-base-patch16",
+    "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3",
+    "weight_file": "pytorch_model.bin",
+    "files": {
+      "preprocessor_config.json": {
+        "bytes": 316,
+        "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd"
+      },
+      "pytorch_model.bin": {
+        "bytes": 598641023,
+        "sha256": "ec89c7b09c749a60aae3c9cd910516f24b58214a7df060b48962d14c469cfbf0"
+      },
+      "README.md": {
+        "bytes": 7928,
+        "sha256": "7c3e9381bb204935093ea878541bfa84c9773ab924f0ea93a4f398c78660e197"
+      },
+      "vocab.json": {
+        "bytes": 961143,
+        "sha256": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+      },
+      "tokenizer_config.json": {
+        "bytes": 905,
+        "sha256": "3f74b6a4d97fee70b3b96921a687fc5e3f2fb583f5f81e7c178c0c22281beade"
+      },
+      "merges.txt": {
+        "bytes": 524619,
+        "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+      },
+      "config.json": {
+        "bytes": 4104,
+        "sha256": "eaf1c9089a8553c913d27ea66407f8bfc2be9989c80c9f331ddb3d63d4c5e8ad"
+      },
+      "special_tokens_map.json": {
+        "bytes": 389,
+        "sha256": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      },
+      "tokenizer.json": {
+        "bytes": 2224003,
+        "sha256": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4"
+      }
+    }
+  },
+  "videos": [
+    {
+      "id": "sintel_trailer",
+      "url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "source": "https://durian.blender.org/",
+      "creator": "Blender Foundation / Sintel team",
+      "declared_license": "CC BY 3.0; verify source attribution before redistribution",
+      "width": 854,
+      "height": 480,
+      "duration_s": 52.208333,
+      "status": "downloaded_and_decodable",
+      "bytes": 4372373,
+      "sha256": "b670602fa00934ca27c4351bb0efe7ea7a07fae57284e44226025eeed7c51254",
+      "local_path": "assets/videos/sintel_trailer-480p.mp4"
+    },
+    {
+      "id": "tears_of_steel",
+      "url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "filename": "tears_of_steel_720p.mov",
+      "source": "https://mango.blender.org/",
+      "creator": "Blender Foundation / Tears of Steel team",
+      "declared_license": "CC BY 3.0; verify source attribution before redistribution",
+      "width": 1280,
+      "height": 534,
+      "duration_s": 734.166667,
+      "status": "downloaded_and_decodable",
+      "bytes": 372178639,
+      "sha256": "efa9062d9cdb7a338e40ad530dfdf234806743f29ae6a1a136b97ece4e588e8f",
+      "local_path": "assets/videos/tears_of_steel_720p.mov"
+    }
+  ],
+  "errors": []
+}

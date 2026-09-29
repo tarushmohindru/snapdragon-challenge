@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "source": "fresh decoding from downloaded public source videos",
+  "candidate_frame_hashes_matched": 1392,
+  "manifest_sha256": "6cbbe1d999faed1f1f3c7238de5c4327a5782c85c30d7fcbb674e44080e3ea46",
+  "inference_repeated": false
+}

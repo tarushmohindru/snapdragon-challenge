@@ -1,0 +1,11 @@
+{
+    "schema":  2,
+    "authorization_id":  "cliptrail-htp-v2-asus-x2e88100-one-attempt",
+    "token":  "9573326e26d14425a95a116089f9b757",
+    "started_utc":  "2026-09-21T12:38:14.4812721Z",
+    "timeout_seconds":  600,
+    "bundle_directory":  "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2",
+    "output_directory":  "C:\\Users\\Harshdeep Athawale\\Downloads\\ClipTrail-HTP-smoke-v2\\evidence\\smoke-v2-20260921T123814481Z-9573326e",
+    "supervisor_pid":  13976,
+    "manifest_sha256":  "51aff5e79ce30bc8b3d2e39fbe170f304e23f058f9e3c954f64da5ea18e1b07f"
+}

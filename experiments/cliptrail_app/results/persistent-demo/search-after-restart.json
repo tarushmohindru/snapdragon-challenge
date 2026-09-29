@@ -1,0 +1,52 @@
+{
+  "query": "A red-haired woman surrounded by burning rubble.",
+  "results": [
+    {
+      "result_id": 7,
+      "timestamp_s": 23.25,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "similarity": 0.3574781887677949,
+      "thumbnail": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/persistent-demo/thumbnails/7.jpg"
+    },
+    {
+      "result_id": 3,
+      "timestamp_s": 8.5,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "similarity": 0.26398013312272495,
+      "thumbnail": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/persistent-demo/thumbnails/3.jpg"
+    },
+    {
+      "result_id": 5,
+      "timestamp_s": 16.75,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "similarity": 0.25750751880062145,
+      "thumbnail": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/persistent-demo/thumbnails/5.jpg"
+    },
+    {
+      "result_id": 45,
+      "timestamp_s": 29.25,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/steel_late.mov",
+      "filename": "steel_late.mov",
+      "similarity": 0.24757390583835065,
+      "thumbnail": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/persistent-demo/thumbnails/45.jpg"
+    },
+    {
+      "result_id": 14,
+      "timestamp_s": 31.0,
+      "path": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/sintel_trailer-480p.mp4",
+      "filename": "sintel_trailer-480p.mp4",
+      "similarity": 0.24639283448334914,
+      "thumbnail": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/results/persistent-demo/thumbnails/14.jpg"
+    }
+  ],
+  "timing": {
+    "text_encode_ms": 39.782353000191506,
+    "ranking_and_thumbnail_ms": 12.940489999891724,
+    "query_ms": 52.72284300008323,
+    "indexed_frames": 48
+  },
+  "npu_verified": false
+}

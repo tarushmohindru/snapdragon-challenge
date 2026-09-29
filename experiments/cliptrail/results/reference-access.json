@@ -1,0 +1,12 @@
+{
+  "status": "blocked_access",
+  "reference_model": "openai/clip-vit-base-patch16",
+  "network_probes": {
+    "pypi.org": "Temporary failure in name resolution",
+    "huggingface.co": "Temporary failure in name resolution"
+  },
+  "local_model_cache_found": false,
+  "gpu": "NVML access blocked; CPU planned",
+  "qnn_required": false,
+  "inference_performed": false
+}

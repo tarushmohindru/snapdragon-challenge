@@ -1,0 +1,18 @@
+test_cpu_compute_invalidates_strict_placement (test_evidence.ProofTests.test_cpu_compute_invalidates_strict_placement) ... ok
+test_device_work_required_beyond_host_execute (test_evidence.ProofTests.test_device_work_required_beyond_host_execute) ... ok
+test_every_check_is_required_and_manual_review_remains (test_evidence.ProofTests.test_every_check_is_required_and_manual_review_remains) ... ok
+test_extra_op_source_column_and_bom_are_supported (test_evidence.ProofTests.test_extra_op_source_column_and_bom_are_supported) ... ok
+test_hash_tampering_missing_and_path_escape (test_evidence.ProofTests.test_hash_tampering_missing_and_path_escape) ... ok
+test_non_windows_runner_stops_before_dependencies (test_evidence.ProofTests.test_non_windows_runner_stops_before_dependencies) ... ok
+test_parity_rejects_wrong_direction_scale_shape_nan (test_evidence.ProofTests.test_parity_rejects_wrong_direction_scale_shape_nan) ... ok
+test_pe_architecture_is_read_from_binary (test_evidence.ProofTests.test_pe_architecture_is_read_from_binary) ... ok
+test_registration_and_model_loading_do_not_pass (test_evidence.ProofTests.test_registration_and_model_loading_do_not_pass) ... ok
+test_unrecognized_profile_fails_closed (test_evidence.ProofTests.test_unrecognized_profile_fails_closed) ... ok
+test_unsafe_and_conflicting_archives_rejected (test_evidence.ProofTests.test_unsafe_and_conflicting_archives_rejected) ... ok
+test_wheel_data_is_installed_at_runtime_prefix (test_evidence.ProofTests.test_wheel_data_is_installed_at_runtime_prefix) ... ok
+test_zero_or_nonfinite_durations_not_execution (test_evidence.ProofTests.test_zero_or_nonfinite_durations_not_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.049s
+
+OK

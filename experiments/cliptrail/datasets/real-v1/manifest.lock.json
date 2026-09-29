@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-09-20T06:37:37.803357+00:00",
+  "counts": {
+    "clips": 6,
+    "queries": 24,
+    "short_queries": 11,
+    "candidate_frames": 1392
+  },
+  "fingerprint": {
+    "manifest_sha256": "6cbbe1d999faed1f1f3c7238de5c4327a5782c85c30d7fcbb674e44080e3ea46",
+    "protocol_sha256": "d98304128a4de039d3b38e6712343d50aa8d62b8cbbf791f5436f0021d8d562a",
+    "code_sha256": {
+      "sampling.py": "b0738f24bb87fc5db4b40a566defe6531790a4392aabed64661ba07edc3f8b0b",
+      "benchmark_core.py": "daaeab2af28e4f704af642f6a04b7e0053501cdfd41983b2aafd22e2ac1d5959",
+      "reference_backend.py": "6062398ea0694c45d071c634cc31abd392edeea60af5ed9b46fc7308ea76cc23",
+      "run_benchmark.py": "b024c9c1e49c524fcf4915544a9a0c5c1ea4a6d69c2cfae01b6efdd5d3ac1a28",
+      "freeze_benchmark.py": "d51ed2f3b848655a40a7ff1b9e495c3c14225fdc6b48c7c129e0ac9490e06f7b",
+      "prepare_corpus.py": "ac1a9582ba0547bc44602609e353903e702cf91ab84ea3dc21836c813a0854f3"
+    }
+  },
+  "budget": 16,
+  "embeddings_seen_before_annotations": false
+}

@@ -1,0 +1,12 @@
+{
+  "backend": "CPU CLIP ViT-B/16",
+  "indexed_videos": 3,
+  "indexed_frames": 48,
+  "top_filename": "sintel_trailer-480p.mp4",
+  "top_timestamp_s": 23.25,
+  "http_query_ms": 51.089935999698355,
+  "thumbnail_jpeg_bytes": 11946,
+  "video_range": "bytes 0-1023/4372373",
+  "video_range_bytes": 1024,
+  "npu_verified": false
+}

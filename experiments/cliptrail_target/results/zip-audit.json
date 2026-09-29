@@ -1,0 +1,10 @@
+{
+  "status": "ZIP_HASHES_AND_LAYOUT_VERIFIED",
+  "members": 3151,
+  "uncompressed_bytes": 635742894,
+  "max_relative_path_length": 126,
+  "zip_sha256": "da18d0aa7b8f44d57154f632cba1fb42f83209d0e9258f5c2808bd60a1ee290d",
+  "all_3150_payload_hashes_match": true,
+  "runtime_executed": false,
+  "npu_verified": false
+}

@@ -1,0 +1,33 @@
+{
+  "status": "created",
+  "manifest": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail_app/validation_library/manifest.json",
+  "videos": [
+    {
+      "name": "sintel_trailer-480p.mp4",
+      "source": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail/assets/videos/sintel_trailer-480p.mp4",
+      "kind": "complete source",
+      "sha256": "b670602fa00934ca27c4351bb0efe7ea7a07fae57284e44226025eeed7c51254",
+      "bytes": 4372373
+    },
+    {
+      "name": "steel_early.mov",
+      "source": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail/assets/videos/tears_of_steel_720p.mov",
+      "kind": "local application test excerpt",
+      "source_start_s": 20.0,
+      "duration_s": 42.0,
+      "frames_encoded": 504,
+      "sha256": "81dc3db69587217c97dc61f93d3e7ae4d7741e8154bde23016de091df4e8d80d",
+      "bytes": 552850
+    },
+    {
+      "name": "steel_late.mov",
+      "source": "/home/tarush/code/snapdragon-challenge/experiments/cliptrail/assets/videos/tears_of_steel_720p.mov",
+      "kind": "local application test excerpt",
+      "source_start_s": 300.0,
+      "duration_s": 42.0,
+      "frames_encoded": 504,
+      "sha256": "90cbfc6f63fad8170c39216ed0c7baf9d79e3530767c9c106b53349d204a8f6d",
+      "bytes": 603506
+    }
+  ]
+}
